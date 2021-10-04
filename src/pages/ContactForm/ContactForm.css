@@ -1,6 +1,25 @@
-.contactFormDiv{
+.globalForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
  display: flex;
  flex-direction: column;
- justify-content: space-around;
+ text-align: left;
+ justify-content: center;
+ align-items: center;
  margin: auto;
+}
+
+.contactLabel{
+    justify-content: left;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    align-items: center;
+    margin: 5vh auto 0 auto;
 }

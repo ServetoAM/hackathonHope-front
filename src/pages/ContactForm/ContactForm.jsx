@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import "./ContactForm.css"
 
-const ContactForm = () => {
+const Contact_Form = () => {
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -24,22 +25,25 @@ const ContactForm = () => {
   };
 
   return (
+    <div className="globalForm">
+      <p>Envoyez-nous un message via le formulaire ou contactez-nous directement via notre adresse mail :  contact@hope-esport.fr</p>
       <form className="contactFormDiv" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Nom</label>
-          <input type="text" id="name" className="nameContact" required />
+        <div className="contact">
+          <label htmlFor="name" className="contactLabel">Nom</label>
+          <input type="text" id="name" className="contact" required />
         </div>
-        <div>
-          <label htmlFor="email">Email</label>
-          <input type="email" id="email" className="emailContact" required />
+        <div className="contact">
+          <label htmlFor="email" className="contactLabel">Email</label>
+          <input type="email" id="email" className="contact" required />
         </div>
-        <div>
-          <label htmlFor="message">Message</label>
-          <textarea id="message" className="messageContact" required />
+        <div className="contact">
+          <label htmlFor="message" className="contactLabel">Message</label>
+          <textarea id="message" className="contact" required />
         </div>
-        <button type="submit">{status}</button>
+        <button className="button" type="submit">{status}</button>
       </form>
+    </div>
   );
 };
 
-export default ContactForm;
+export default Contact_Form;
