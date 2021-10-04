@@ -1,6 +1,15 @@
 .globalForm{
     display: flex;
     flex-direction: column;
+    text-align: justify;
+}
+
+.globalForm.p{
+margin: auto;
+}
+
+.contactFormDiv{
+margin-top: auto;
 }
 
 .contact{
@@ -8,12 +17,18 @@
  flex-direction: column;
  text-align: left;
  justify-content: center;
- align-items: center;
  margin: auto;
+ width: 90%;
 }
 
 .contactLabel{
     justify-content: left;
+    text-align: left;
+}
+
+#message{
+height: 100px;
+width: 81%;
 }
 
 .button{

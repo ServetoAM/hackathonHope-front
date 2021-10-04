@@ -26,18 +26,24 @@ const Contact_Form = () => {
 
   return (
     <div className="globalForm">
-      <p>Envoyez-nous un message via le formulaire ou contactez-nous directement via notre adresse mail :  contact@hope-esport.fr</p>
+      <p>Envoyez-nous un message via le formulaire ou contactez-nous directement via notre adresse mail :  <b>contact@hope-esport.fr</b></p>
       <form className="contactFormDiv" onSubmit={handleSubmit}>
-        <div className="contact">
+        <div>
           <label htmlFor="name" className="contactLabel">Nom</label>
+        </div>
+        <div className="contact">
           <input type="text" id="name" className="contact" required />
         </div>
-        <div className="contact">
+        <div>
           <label htmlFor="email" className="contactLabel">Email</label>
-          <input type="email" id="email" className="contact" required />
         </div>
         <div className="contact">
+          <input type="email" id="email" className="contact" required />
+        </div>
+        <div>
           <label htmlFor="message" className="contactLabel">Message</label>
+        </div>
+        <div>
           <textarea id="message" className="contact" required />
         </div>
         <button className="button" type="submit">{status}</button>
