@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar';
-import ContactForm from './ContactForm';
+import ContactForm from './pages/ContactForm/ContactForm.jsx';
 
 function App() {
   return (
