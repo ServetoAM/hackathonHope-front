@@ -25,6 +25,61 @@ body {
 	text-decoration: none;
 }
 
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+.nav-listItemDrop {
+	border-radius: 8px;
+	position: absolute;
+	top: 4rem;
+	left: -1rem;
+	box-shadow: 0 0 10px lightgray ;
+	background-color: black;
+	display: flex;
+	width: 8rem;
+	padding: 1rem;
+	flex-direction: column;
+	gap: 0.5rem;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 200ms ease-in-out;
+
+	&li {
+		padding: 0.5rem 1rem;
+		transition: background-color 200ms ease-in-out;
+	}
+
+	&:hover, &:focus {
+		background-color: blue;
+	}
+}
+
+.nav-listItem {
+	list-style: none;
+	position: relative;
+
+	&:hover ul , &:focus ul {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.nav-listItemDrop li {
+
+	&:nth-child(1) {
+		padding: 0;
+		margin: 0;
+	}
+
+	&:nth-child(2) {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+
 .polygon {
 	width: 20%;
 	display: flex;
