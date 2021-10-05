@@ -32,7 +32,7 @@ function Navbar() {
 					<Link className="text-decoration" to="/staff"><li className="button3">Staff</li></Link>
 						</ul>
 				</div>
-				<Link className="button2">Contact</Link>
+				<Link className="button2" to="/contact">Contact</Link>
 			</div>
 		</div>
 	)
