@@ -50,15 +50,10 @@ body {
 	text-decoration: none;
 }
 
-ul {
-	padding: 0;
-	margin: 0;
-}
-
 .nav-listItemDrop {
 	border-radius: 8px;
 	position: absolute;
-	top: 1.5rem;
+	top: 0.5rem;
 	box-shadow: 0 0 10px lightgray ;
 	background-color: black;
 	display: flex;
@@ -132,7 +127,8 @@ li {
 }
 
 
-.logo {
+ a .logo {
+	display: flex;
 	width: 40%;
 	margin: auto;
 }

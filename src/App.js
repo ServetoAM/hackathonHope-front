@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar';
-import Staff from './components/pages/staff/Staff.jsx'
+import ContactForm from './components/pages/ContactForm/ContactForm.jsx';
+import Staff from './components/pages/staff/Staff.jsx';
 import WebTV from './components/pages/webTV/WebTV.jsx';
 import Home from './components/pages/accueil/Home.jsx';
 import Equipe from './components/pages/equipe/Equipe.jsx';
@@ -15,6 +16,7 @@ function App() {
             <Route exact path="/" component={Home}/>
             <Route path="/web-tv" component={WebTV}/>
             <Route path="/equipe" component={Equipe}/>
+            <Route path="/contact" component={ContactForm}/> 
             <Route path="/staff" component={Staff}/>
           </Switch>
       </Router>
