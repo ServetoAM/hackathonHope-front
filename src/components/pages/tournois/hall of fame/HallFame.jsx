@@ -3,8 +3,12 @@ import './HallFame.css'
 
 function HallFame() {
     return (
-        <div>
-            
+        <div className="DivHallFame">
+            <h1>Hall of Fame</h1>
+            <div className="TableauHallFame">
+                <div className="gagnant"></div>
+                <div className="perdant"></div>
+            </div>
         </div>
     )
 }
