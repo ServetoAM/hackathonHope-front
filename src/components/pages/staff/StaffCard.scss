@@ -93,9 +93,13 @@
 	}
 	
 
-	li:hover {
+	.full:hover {
 		background: rgb(30,0,36);
 		background: rgb(30,0,36);
 		background: linear-gradient(0deg, rgba(173,88,43,1) 30%, rgba(251,176,59,1) 100%);
+	}
+
+	.empty a{
+		cursor: default;
 	}
 }
