@@ -1,14 +1,33 @@
-import React from 'react'
+import React from 'react';
+import HS_Logo from '../../../assets/HS_Logo.png';
+import shirt_back from '../../../assets/shirt_back.png';
+import shirt_front from '../../../assets/shirt_front.png';
+import './Home.css'
 
 function Home() {
     return (
-        <div>
-            <p>Hope Esport est une association esport autour du jeu HearthStone. </p>
-
-            <p>Elle est présente sur la scène de la compétition française et européenne. Les valeurs principales sont l'ambition, la performance, la communauté et l'esprit d'équipe. Hope Esport se bat #Untiltheend.</p>
-            <img src="" alt="" />
+        <div className="homeDiv">
+            <div className="homeSub">
+                <img className="HSLogo1" src={HS_Logo} alt="Logo HearthStone" />
+            </div>
+            <p className="homeText">Hope Esport est une association esport autour du jeu HearthStone. </p>
+            <a className="homeShirt" href="https://eliminate.fr/categorie-produit/hope-esport/" target="_blank">
+                    <img className="shirt" 
+                    src={shirt_front} 
+                    alt="Tshirt Asso" 
+                    />
+                    <img className="shirt" 
+                    src={shirt_back} 
+                    alt="Tshirt Asso" 
+                    href="https://eliminate.fr/categorie-produit/hope-esport/"
+                    />
+            </a>
+            <p className="homeText">Elle est présente sur la scène de la compétition française et européenne. Elle possède sa propre merch disponible pour tous. Les valeurs principales sont l'ambition, la performance, la communauté et l'esprit d'équipe. Hope Esport se bat #Untiltheend.</p>
+            {/* <div className="homeSub"> */}
+                <img className="HSLogo2" src={HS_Logo} alt="Logo HearthStone" />
+            {/* </div> */}
         </div>
     )
 }
 
-export default Home
+export default Home;
