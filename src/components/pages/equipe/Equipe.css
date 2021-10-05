@@ -1,0 +1,9 @@
+.Team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: auto;
+    margin: auto;
+    padding-top: 20vh;
+}

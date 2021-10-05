@@ -9,6 +9,11 @@ function Navbar() {
 		<div className="navbar" >
 			<div className="text-style1">
 
+				<Link to="/" className="button1">Accueil</Link>
+				<Link to="/web-tv" className="button1">Web TV</Link>
+				<Link to="/equipe" className="button1">Équipe</Link>
+
+
 				<li>Accueil</li>
 				<li>Web TV</li>
 				<li className="nav-listItem">Tournois
@@ -18,15 +23,16 @@ function Navbar() {
 						</ul>
 				</li>
 
-				<Link to="/" className="button">Accueil</Link>
-				<Link to="/web-tv" className="button">Web TV</Link>
-				<Link to="/equipe" className="button">Équipe Hearthstone</Link>
-
 			</div>
 					<span className="polygon">
 						<img className="logo" src={logo} alt="Logo Hope" />
 					</span>
 			<div className="text-style2">
+
+				<Link className="button2">Tournois</Link>
+				<Link className="button2">L'association</Link>
+				<Link className="button2">Contact</Link>
+
 
 				<li>Équipe</li>
 				<li className="nav-listItem">L'association
@@ -37,10 +43,7 @@ function Navbar() {
 				</li>
 				<li>Contact</li>
 
-				<Link className="button">Tournois</Link>
-				<Link className="button">L'association</Link>
-				<Link className="button">Contact</Link>
-
+				
 			</div>
 			
 		</div>
