@@ -11,7 +11,7 @@ function Navbar() {
 
 				<Link to="/" className="button1">Accueil</Link>
 				<Link to="/web-tv" className="button1">Web TV</Link>
-				
+
 			<div className="nav-listItem button1">Tournois
 					<ul  className="nav-listItemDrop">
 					<Link className="text-decoration" to="/brackets"><li className="button3">Brackets</li></Link>
@@ -25,23 +25,15 @@ function Navbar() {
 					</span>
 			<div className="text-style2">
 
-				<Link className="button2">Tournois</Link>
-				<Link className="button2">L'association</Link>
-				<Link to="/contact" className="button2">Contact</Link>
-
-
-				<li>Équipe</li>
-				<li className="nav-listItem">L'association
+				<Link className="button2" to="/equipe">Équipe</Link>
+				<div className="nav-listItem button2">L'association
 					<ul  className="nav-listItemDrop">
-						<li>A propos</li>
-						<li>Staff</li>
+					<Link className="text-decoration" to="/a-propos"><li className="button3">A propos</li></Link>
+					<Link className="text-decoration" to="/staff"><li className="button3">Staff</li></Link>
 						</ul>
-				</li>
-				<li>Contact</li>
-
-				
+				</div>
+				<Link className="button2">Contact</Link>
 			</div>
-			
 		</div>
 	)
 }
