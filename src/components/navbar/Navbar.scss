@@ -15,12 +15,14 @@ body {
 	background: linear-gradient(90deg, rgba(30,0,36,1) 0%, rgba(73,20,20,1) 50%, rgba(173,88,43,1) 50%, rgba(251,176,59,1) 100%);
 }
 
-li {
+.button {
 	color: white;
 	list-style-type: none;
 	margin: auto;
-  font-size: 19px;
+  	font-size: 19px;
 	padding-left:40px ;
+	cursor: pointer;
+	text-decoration: none;
 }
 
 ul {
