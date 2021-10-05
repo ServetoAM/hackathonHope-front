@@ -16,7 +16,6 @@ function Staff() {
 
     return (
         <div className="Staff">
-
             {staff.map((staff) => (
                 <div key={staff.id} className="staff">
                     <StaffCard staff={staff}/>

@@ -11,17 +11,13 @@ function Navbar() {
 
 				<Link to="/" className="button1">Accueil</Link>
 				<Link to="/web-tv" className="button1">Web TV</Link>
-				<Link to="/equipe" className="button1">Équipe</Link>
-
-
-				<li>Accueil</li>
-				<li>Web TV</li>
-				<li className="nav-listItem">Tournois
+				
+			<div className="nav-listItem button1">Tournois
 					<ul  className="nav-listItemDrop">
-						<li>Brackets</li>
-						<li>Hall of fame</li>
+					<Link className="text-decoration" to="/brackets"><li className="button3">Brackets</li></Link>
+					<Link className="text-decoration" to="/hall-of-fame"><li className="button3">Hall of fame</li></Link>
 						</ul>
-				</li>
+				</div>
 
 			</div>
 					<span className="polygon">

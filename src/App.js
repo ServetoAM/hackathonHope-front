@@ -13,11 +13,11 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Staff />
             <Route exact path="/" component={Home}/>
             <Route path="/web-tv" component={WebTV}/>
             <Route path="/equipe" component={Equipe}/>
             <Route path="/contact" component={ContactForm}/> 
+            <Route path="/staff" component={Staff}/>
           </Switch>
       </Router>
       <p className="footer">© Hope Esport – 2021 Mentions légales</p>
