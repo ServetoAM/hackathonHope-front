@@ -37,11 +37,8 @@ function Navbar() {
 						<li>Staff</li>
 						</ul>
 				</li>
-				<li>Contact</li>
-
-				
+				<li>Contact</li>	
 			</div>
-			
 		</div>
 	)
 }
