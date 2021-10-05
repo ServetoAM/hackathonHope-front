@@ -10,11 +10,24 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	position: fixed;
+  position: relative;
 	width: 100%;
 	background: rgb(30,0,36);
 	background: rgb(30,0,36);
-	background: linear-gradient(90deg, rgba(30,0,36,1) 0%, rgba(73,20,20,1) 50%, rgba(173,88,43,1) 50%, rgba(251,176,59,1) 100%);
+	background: linear-gradient(90deg, rgba(30,0,36,1) 0%, rgba(73,20,20,1) 50%, rgba(173,88,43,1) 60%, rgba(251,176,59,1) 100%);
+
+	&li {
+		color: white;
+		list-style-type: none;
+		margin: auto;
+		font-size: 19px;
+		padding-left:40px ;
+	}
+	
+	&ul {
+		padding: 0;
+		margin: 0;
+	}
 }
 
 .button1 {
@@ -45,27 +58,36 @@ ul {
 .nav-listItemDrop {
 	border-radius: 8px;
 	position: absolute;
-	top: 4rem;
-	left: -1rem;
+	top: 1.5rem;
 	box-shadow: 0 0 10px lightgray ;
 	background-color: black;
 	display: flex;
-	width: 8rem;
+	text-align: left;
+	width: 10rem;
 	padding: 1rem;
 	flex-direction: column;
-	gap: 0.5rem;
+	gap: 1rem;
 	opacity: 0;
 	visibility: hidden;
 	transition: opacity 200ms ease-in-out;
+}
 
-	&li {
-		padding: 0.5rem 1rem;
-		transition: background-color 200ms ease-in-out;
-	}
+.text-decoration {
+	text-decoration: none;
+}
 
-	&:hover, &:focus {
-		background-color: blue;
-	}
+.button3:hover , .button3:focus {
+	border-radius: 8px;
+	text-decoration: none;
+	background-color: rgb(88, 88, 88);
+	transition: background-color 200ms ease-in-out;
+}
+
+li {
+	padding: 0.5rem 1rem;
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
 }
 
 .nav-listItem {
