@@ -33,7 +33,7 @@ const Contact_Form = () => {
         </div>
 
         <div className="contact">
-          <input type="text" id="name" className="contact" required />
+          <input type="text" id="name"  required />
         </div>
 
         <div>
@@ -41,17 +41,17 @@ const Contact_Form = () => {
         </div>
 
         <div className="contact">
-          <input type="email" id="email" className="contact" required />
+          <input type="email" id="email" required />
         </div>
 
         <div>
           <label htmlFor="message" className="contactLabel">Message</label>
         </div>
 
-        <div>
-          <textarea id="message" className="contact" required />
+        <div className="contact">
+          <textarea id="message"  required />
         </div>
-        
+
         <button className="button" type="submit">{status}</button>
       </form>
     </div>
