@@ -1,0 +1,37 @@
+.homeDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.homeSub{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.homeShirt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.HSLogo1 {
+    display: flex;
+    width: 10%;
+    height: 10%;
+    align-items: left;
+}
+
+.shirt{
+    width: 10%;
+    height: 10%;
+}
+
+.HSLogo2 {
+    display: flex;
+    width: 10%;
+    height: 10%;
+    justify-content: right;
+}
