@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ContactForm.css"
 
-const Contact_Form = () => {
+const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -12,7 +12,7 @@ const Contact_Form = () => {
       email: email.value,
       message: message.value,
     };
-    let response = await fetch("http://localhost:8000/contact", {
+    let response = await fetch("http://localhost:3000/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -58,4 +58,4 @@ const Contact_Form = () => {
   );
 };
 
-export default Contact_Form;
+export default ContactForm;

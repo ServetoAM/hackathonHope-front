@@ -7,14 +7,25 @@ body {
 }
 
 .navbar {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	position: fixed;
-	width: 100%;
-	background: rgb(30,0,36);
-	background: rgb(30,0,36);
-	background: linear-gradient(90deg, rgba(30,0,36,1) 0%, rgba(73,20,20,1) 50%, rgba(173,88,43,1) 50%, rgba(251,176,59,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(30,0,36);
+    background: rgb(30,0,36);
+    background: linear-gradient(90deg, rgba(30,0,36,1) 0%, rgba(73,20,20,1) 50%, rgba(173,88,43,1) 60%, rgba(251,176,59,1) 100%);
+
+    &li {
+        color: white;
+        list-style-type: none;
+        margin: auto;
+        font-size: 19px;
+        padding-left:40px ;
+    }
+    
+    &ul {
+        padding: 0;
+        margin: 0;
+    }
 }
 
 .button1 {
@@ -35,11 +46,6 @@ body {
 	margin-right: 3.8vw ;
 	cursor: pointer;
 	text-decoration: none;
-}
-
-ul {
-	padding: 0;
-	margin: 0;
 }
 
 .nav-listItemDrop {
