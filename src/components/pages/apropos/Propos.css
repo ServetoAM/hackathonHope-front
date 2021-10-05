@@ -1,0 +1,30 @@
+.propos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+
+.proposH1{
+border: 1px solid white;
+border-radius: 10vw;
+padding: 1vw;
+}
+
+.proposH2{
+    border: 1px solid white;
+    border-radius: 10vw;
+    padding: 1vw;
+}
+
+.proposH3{
+    border: 1px solid white;
+    border-radius: 10vw;
+    padding: 1vw;
+}
+
+.proposP{
+    display: flex;
+    text-align: justify;
+}

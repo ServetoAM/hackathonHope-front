@@ -22,7 +22,7 @@ function Home() {
                     href="https://eliminate.fr/categorie-produit/hope-esport/"
                     />
             </a>
-            <p className="homeText">Elle est présente sur la scène de la compétition française et européenne. Les valeurs principales sont l'ambition, la performance, la communauté et l'esprit d'équipe. Hope Esport se bat <b>#Untiltheend</b>.</p>
+            <p className="homeText">Elle est présente sur la scène de la compétition française et européenne. Elle possède sa propre merch disponible pour tous. Les valeurs principales sont l'ambition, la performance, la communauté et l'esprit d'équipe. Hope Esport se bat #Untiltheend.</p>
             {/* <div className="homeSub"> */}
                 <img className="HSLogo2" src={HS_Logo} alt="Logo HearthStone" />
             {/* </div> */}
