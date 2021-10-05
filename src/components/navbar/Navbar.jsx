@@ -27,7 +27,7 @@ function Navbar() {
 
 				<Link className="button2">Tournois</Link>
 				<Link className="button2">L'association</Link>
-				<Link className="button2">Contact</Link>
+				<Link to="/contact" className="button2">Contact</Link>
 
 
 				<li>Équipe</li>
