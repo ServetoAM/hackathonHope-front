@@ -17,8 +17,6 @@ body {
 	background: linear-gradient(90deg, rgba(30,0,36,1) 0%, rgba(73,20,20,1) 50%, rgba(173,88,43,1) 60%, rgba(251,176,59,1) 100%);
 
 	&li {
-		color: white;
-		list-style-type: none;
 		margin: auto;
 		font-size: 19px;
 		padding-left:40px ;
@@ -34,7 +32,7 @@ body {
 	color: #e2dada;
 	list-style-type: none;
 	margin: auto;
-  	font-size: 19px;
+  font-size: 19px;
 	margin-left: 5vw ;
 	cursor: pointer;
 	text-decoration: none;
@@ -44,7 +42,7 @@ body {
 	color: #e2dada;
 	list-style-type: none;
 	margin: auto;
-  	font-size: 19px;
+  font-size: 19px;
 	margin-right: 3.8vw ;
 	cursor: pointer;
 	text-decoration: none;
@@ -54,8 +52,8 @@ body {
 	border-radius: 8px;
 	position: absolute;
 	top: 0.5rem;
-	box-shadow: 0 0 10px lightgray ;
-	background-color:  white;
+	box-shadow: 0 0 5px black ;
+	background-color: #18181b;
 	text-align: left;
 	width: 10rem;
 	padding: 1rem;
@@ -71,15 +69,14 @@ body {
 }
 
 .button3:hover , .button3:focus {
-	border-radius: 8px;
+	color: rgba(251,176,59,1);
 	text-decoration: none;
-	background-color: rgb(177, 177, 177);
 	transition: background-color 200ms ease-in-out;
 }
 
-li {
+.navbar li {
+	color: white;
 	padding: 0.5rem 1rem;
-	color: black;
 	text-decoration: none;
 	list-style-type: none;
 }
@@ -117,10 +114,10 @@ li {
 
 .text-style1 {
 	display: flex;
-	flex-direction: row;;
+	flex-direction: row;
 }
 
-.text-style2 {
+.text-style{
 	display: flex;
 	flex-direction: row;
 }
