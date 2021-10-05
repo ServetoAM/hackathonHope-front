@@ -1,0 +1,41 @@
+h1{
+	margin: 0;
+	padding: 0;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+		& .home-button {
+			display: flex;
+			justify-content: center;
+			width: 7%;
+			margin: 3vh auto auto auto;
+			border: 1px solid white;
+			height: 4vh;
+
+			&:hover {
+				background: rgb(30,0,36);
+				background: rgb(30,0,36);
+				background: linear-gradient(0deg,rgba(173,88,43,1) 20%, rgba(251,176,59,1) 100%);
+			}
+		}
+
+		& h1 {
+			font-size: 200px;
+			margin-top: 15%;
+			margin-bottom: 0;
+		}
+
+		& p {
+			font-size: 14px;
+		}
+
+		& a {
+			color: white;
+			text-decoration: none;
+			margin: auto;
+		}
+}
