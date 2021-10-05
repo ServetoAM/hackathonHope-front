@@ -5,11 +5,9 @@ import Staff from './components/pages/staff/Staff.jsx';
 import WebTV from './components/pages/webTV/WebTV.jsx';
 import Home from './components/pages/accueil/Home.jsx';
 import Equipe from './components/pages/equipe/Equipe.jsx';
-
 import PlayerDetails from './components/playerCard/PlayerDetails';
-
 import Propos from './components/pages/apropos/Propos.jsx';
-
+import ErrorPage from './components/pages/404/error_page';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -23,11 +21,9 @@ function App() {
             <Route path="/equipe" component={Equipe}/>
             <Route path="/contact" component={ContactForm}/> 
             <Route path="/staff" component={Staff}/>
-
             <Route path="/player/:id" component={PlayerDetails}/>
-
             <Route path="/a-propos" component={Propos}/>
-
+            <Route component={ErrorPage}/>
           </Switch>
       </Router>
       <p className="footer">© Hope Esport – 2021 Mentions légales</p>
