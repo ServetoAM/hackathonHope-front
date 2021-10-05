@@ -8,6 +8,13 @@
     margin-right: 1vw;
     margin-left: 1vw;
     margin-top: -2px;
+    filter: grayscale(1);
+    transition: 500ms;
+}
+
+.containerPlayerCard:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
 }
   
   .playerCard {
