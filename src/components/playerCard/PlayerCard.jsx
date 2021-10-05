@@ -1,13 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./PlayerCard.css"
 
 function PlayerCard({player}) {
     return (
         <div className="containerPlayerCard">
-            <div className="playerCard">
-                <img className="photo" alt={player.firstname} src={require(`../../assets/${player.picture_player}.png`).default}/>
-                <img className="pseudo" alt={player.player_name} src={process.env.PUBLIC_URL +  player.player_name}/>
-            </div>
+            <Link to={{ pathname:`player/${player.id}`}}>
+                <div className="playerCard">
+                    <img className="photo" alt={player.firstname} src={require(`../../assets/${player.picture_player}`).default}/>
+                </div>
+            </Link>
         </div>
     )
 }

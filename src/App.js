@@ -5,6 +5,7 @@ import Staff from './components/pages/staff/Staff.jsx';
 import WebTV from './components/pages/webTV/WebTV.jsx';
 import Home from './components/pages/accueil/Home.jsx';
 import Equipe from './components/pages/equipe/Equipe.jsx';
+import PlayerDetails from './components/playerCard/PlayerDetails';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path="/equipe" component={Equipe}/>
             <Route path="/contact" component={ContactForm}/> 
             <Route path="/staff" component={Staff}/>
+            <Route path="/player/:id" component={PlayerDetails}/>
           </Switch>
       </Router>
       <p className="footer">© Hope Esport – 2021 Mentions légales</p>
