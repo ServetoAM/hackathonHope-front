@@ -1,10 +1,18 @@
 .hallOfFame h1{
 	text-align:center;
+	margin-top: 3vw;
+	margin-bottom: 3vw;
 }
 
 .tableauHallOfFame {
 	width: 35%;
 	margin: auto;
+}
+
+.bannière{
+	width: 100%;
+	justify-content: center;
+	border: 6px solid black;
 }
 
 .gagnant {
@@ -14,6 +22,9 @@
 	background: rgb(30,0,36);
 	background: rgb(30,0,36);
 	background: linear-gradient(0deg, rgba(173,88,43,1) 20%, rgba(73,20,20,1) 50%, rgba(30,0,36,1) 100%);
+	width: 100%;
+	margin-bottom: 0.5vh;
+
 }
 
 .gagnant h2 {
@@ -32,6 +43,7 @@
 	font-size: 32px;
 	background-color: #e2dada;
 	color: black;
+	width: 100%;
 }
 
 .leaderboard li {
