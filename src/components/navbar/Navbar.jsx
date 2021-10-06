@@ -1,6 +1,5 @@
 import React from 'react'
 import './Navbar.scss'
-import { FaTwitter, FaDiscord } from 'react-icons/fa';
 import { IoIosArrowDown } from 'react-icons/io'
 import { Link } from 'react-router-dom';
 import logo from '../../assets/Logo_Hope_ESport_format_PNG.png'
