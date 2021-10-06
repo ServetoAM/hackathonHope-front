@@ -5,6 +5,10 @@ import Staff from './components/pages/staff/Staff.jsx';
 import WebTV from './components/pages/webTV/WebTV.jsx';
 import Home from './components/pages/accueil/Home.jsx';
 import Equipe from './components/pages/equipe/Equipe.jsx';
+<<<<<<< HEAD
+=======
+import Brackets from './components/pages/tournois/brackets/Brackets.jsx';
+>>>>>>> ce604fbaabf54bddc86f10f9551421aecd42006c
 import HallFame from './components/pages/tournois/hall of fame/HallFame.jsx';
 import PlayerDetails from './components/playerCard/PlayerDetails';
 import Propos from './components/pages/apropos/Propos.jsx';
@@ -22,7 +26,9 @@ function App() {
             <Route path="/equipe" component={Equipe}/>
             <Route path="/contact" component={ContactForm}/> 
             <Route path="/staff" component={Staff}/>
+            <Route path="/brackets" component={Brackets}/>
             <Route path="/hall-of-fame" component={HallFame}/>
+
             <Route path="/player/:id" component={PlayerDetails}/>
             <Route path="/a-propos" component={Propos}/>
             <Route component={ErrorPage}/>

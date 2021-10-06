@@ -9,8 +9,12 @@ function Home() {
         <div className="homeDiv">
             <div className="homeSub">
                 <img className="HSLogo1" src={HS_Logo} alt="Logo HearthStone" />
+                <h1 className="homeTitle">Accueil</h1>   
+                <img className="HSLogo2" src={HS_Logo} alt="Logo HearthStone" />         
             </div>
             <p className="homeText">Hope Esport est une association esport autour du jeu HearthStone. </p>
+            
+            <p className="homeText">Elle est présente sur la scène de la compétition française et européenne. Elle possède sa propre merch disponible pour tous. Les valeurs principales sont l'ambition, la performance, la communauté et l'esprit d'équipe. Hope Esport se bat #Untiltheend.</p>
             <a className="homeShirt" href="https://eliminate.fr/categorie-produit/hope-esport/" target="_blank">
                     <img className="shirt" 
                     src={shirt_front} 
@@ -22,10 +26,6 @@ function Home() {
                     href="https://eliminate.fr/categorie-produit/hope-esport/"
                     />
             </a>
-            <p className="homeText">Elle est présente sur la scène de la compétition française et européenne. Elle possède sa propre merch disponible pour tous. Les valeurs principales sont l'ambition, la performance, la communauté et l'esprit d'équipe. Hope Esport se bat #Untiltheend.</p>
-            {/* <div className="homeSub"> */}
-                <img className="HSLogo2" src={HS_Logo} alt="Logo HearthStone" />
-            {/* </div> */}
         </div>
     )
 }
