@@ -5,21 +5,20 @@ import Staff from './components/pages/staff/Staff.jsx';
 import WebTV from './components/pages/webTV/WebTV.jsx';
 import Home from './components/pages/accueil/Home.jsx';
 import Equipe from './components/pages/equipe/Equipe.jsx';
-<<<<<<< HEAD
-=======
 import Brackets from './components/pages/tournois/brackets/Brackets.jsx';
->>>>>>> ce604fbaabf54bddc86f10f9551421aecd42006c
 import HallFame from './components/pages/tournois/hall of fame/HallFame.jsx';
 import PlayerDetails from './components/playerCard/PlayerDetails';
 import Propos from './components/pages/apropos/Propos.jsx';
 import ErrorPage from './components/pages/404/error_page';
+import NavbarMobile from './components/navbar/NavbarMobile';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <Navbar className="nav" />
+        <NavbarMobile className="navMobile" />
         <Switch>
             <Route exact path="/" component={Home}/>
             <Route path="/web-tv" component={WebTV}/>
@@ -28,7 +27,6 @@ function App() {
             <Route path="/staff" component={Staff}/>
             <Route path="/brackets" component={Brackets}/>
             <Route path="/hall-of-fame" component={HallFame}/>
-
             <Route path="/player/:id" component={PlayerDetails}/>
             <Route path="/a-propos" component={Propos}/>
             <Route component={ErrorPage}/>
