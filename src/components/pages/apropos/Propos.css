@@ -6,16 +6,43 @@
     margin: auto;
 }
 
-.proposImage{
+.proposImageShake{
     display: flex;
     justify-content: center;
     margin-bottom: 4vw;
 }
 
+.ImageproposShake{
+    display: flex;
+    align-content:center;
+    width: 50%;
+}
+
+.proposCombler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4vw;
+}
+
+.proposComblerText{
+    display: flex;
+    width: 60%;
+}
+
+
 .Imagepropos{
     display: flex;
     align-content: center;
+    justify-content: center;
     width: 50%;
+}
+
+.proposImage{
+    display: flex;
+    align-content:center;
+    justify-content: center;
 }
 
 .proposH1{

@@ -2,6 +2,7 @@ import React from 'react';
 import './Propos.css';
 import roulanvipere from '../../../assets/roulanvipere.png';
 import tournoiexemple from '../../../assets/tournoiexemple.png';
+import handshake from '../../../assets/handshake.jpg';
 
 function Propos() {
     return (
@@ -9,8 +10,12 @@ function Propos() {
             <h1 className="proposH1">A PROPOS</h1>
             <div className="Divpropos">
                 <h2 className="proposH2">Historique</h2>
-            <p className="proposP">Afin de combler leurs différents objectifs, SKZ et Zary décident de créer leur propre structure en décembre 2020.</p>
-            
+            <div className="proposCombler" >
+                <div className="proposComblerText">
+                    <p className="proposP">Afin de combler leurs différents objectifs, SKZ et Zary décident de créer leur propre structure en décembre 2020.</p>
+                </div>  
+                    <img className="ImageproposShake" src={handshake} alt="Serrage de mains"/>
+            </div>
             <h3 className="proposH3">Voici nos principaux objectifs pour l’année 2021 :</h3>
            
             <p className="proposP">Développer la scène compétitive Hearthstone à travers l’organisation de différents évènements (tournois communautaires, tournois rémunérés, etc.).
