@@ -1,5 +1,5 @@
 .footer {
-	position: fixed;
+	position: relative;
 	bottom: 0;
 	margin: 0 auto 0 0;
 	text-align: left;
