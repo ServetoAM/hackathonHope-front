@@ -32,17 +32,24 @@
 }
 
 
-.Imagepropos{
+.Imagepropos1{
     display: flex;
-    align-content: center;
-    justify-content: center;
     width: 50%;
 }
 
-.proposImage{
+.proposImage1{
     display: flex;
-    align-content:center;
-    justify-content: center;
+    justify-content: left;
+}
+
+.Imagepropos2{
+    display: flex;
+    width: 50%;
+}
+
+.proposImage2{
+    display: flex;
+    justify-content: right;
 }
 
 .proposH1{
@@ -83,4 +90,14 @@
     display: flex;
     text-align: justify;
     margin: 3vw;
+}
+
+.untilEnd {
+    display: flex;
+    justify-content: center;
+}
+
+.untilTheEnd {
+    width: 50%;
+    display: flex;  
 }
