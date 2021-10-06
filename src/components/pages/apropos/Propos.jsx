@@ -61,7 +61,7 @@ Nous nous donnerons à cœur pour réaliser différents projets, afin de satisfa
 Nous avons une grande volonté de nous intégrer en tant que structure vectrice du compétitif sur Hearthstone.
             </p>
             <p className="proposP">
-Pour ce qui est du moyen et long terme, nous voulons toucher le niveau européen. A très long terme, nous visons même des projets mondiaux. Car après tout, pourquoi devrions-nous nous fixer des limites ?
+Pour ce qui est du moyen et long terme, nous voulons toucher le niveau européen. A très long terme, nous visons même des projets mondiaux. Car après tout, pourquoi devrions-nous nous fixer des limites ? #untiltheend
             </p>
             </div>
         </div>
