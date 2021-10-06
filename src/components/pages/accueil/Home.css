@@ -37,6 +37,8 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 2vw;
+    margin-left: 35vw;
+    margin-right:35vw;
 }
 
 .HSLogo1 {
@@ -47,8 +49,8 @@
 }
 
 .shirt{
-    width: 15%;
-    height: 15%;
+    width: 240px;
+    /* height: 15%; */
     margin-top: auto;
     margin-bottom: auto;
 }
