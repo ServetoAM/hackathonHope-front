@@ -44,7 +44,7 @@ console.log(playerDetails)
                     <img src={Controller} alt="" className="joueur" />
                     <ul>
                         <li className="cardTextStyle">{playerDetails.other_games}</li>
-                        <li className="cardTextStyle">{playerDetails.discord}</li>
+                        <li className="cardTextStyle">Discord : {playerDetails.discord}</li>
                         
                     </ul>
                     </div>
