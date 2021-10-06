@@ -10,7 +10,7 @@
 .panel {
     display: flex;
     flex-direction: row;
-    margin-top: 4vh;
+		padding-top: 15vh;
     padding-right: 2vw;
     /* border: 2px rgb(243, 6, 46) solid; */
 }
@@ -160,6 +160,7 @@
 	width: 20%;
 	margin: auto;
 	list-style-type: none;
+	padding-bottom: 5vh;
 	
 }
 
@@ -203,4 +204,29 @@
 	.empty a{
 		cursor: default;
 	}
+}
+
+@media screen and (max-width: 1224px) {
+	.panel {
+		margin-top: 0;
+		padding-top: 10vh;
+	}
+
+	.panel {
+		text-align: center;
+	}
+
+	.main-info-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.container-1, .second-info, .container-2 {
+		margin-bottom: 3vh;
+	}
+
+	.socialIcon {
+		width: 80%;
+	}
+
 }

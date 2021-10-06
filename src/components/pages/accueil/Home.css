@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 10vh;
 }
 
 .homeSub{
@@ -34,7 +35,6 @@
 
 .buttonStyle {
     border: #e2dada 2px solid;
-    color: #5865F2;
     font-size: 25px;
     width: 7%;
     height: 4vh;
@@ -45,13 +45,11 @@
 }
 
 .buttonStyle:hover {
-    color: #e2dada;
     background: linear-gradient(0deg, rgba(73,20,20,1) 10%, rgba(30,0,36,1) 100%);
 }
 
 .buttonStyle2 {
     border: #e2dada 2px solid;
-    color: #1DA1F2;
     font-size: 25px;
     width: 7%;
     height: 4vh;
@@ -62,8 +60,28 @@
 }
 
 .buttonStyle2:hover {
-    color: #e2dada;
     background: linear-gradient(0deg, rgba(73,20,20,1) 10%, rgba(30,0,36,1) 100%);
+}
+
+
+.color1 {
+    color: #5865F2;
+}
+
+/* .color1:hover {
+    color: white;
+} */
+
+.color2 {
+    color: #1DA1F2;
+}
+
+/* .color2:hover {
+    color: #e2dada;
+} */
+
+.color {
+    color: white;
 }
 
 .homeText{
@@ -120,4 +138,30 @@
 .merchandising p {
     width: 20%;
     text-align: right;
+}
+
+@media screen and (max-width: 1224px) {
+    .homeDiv {
+        padding-bottom: 13vh;
+    }
+    .HSLogo2 {
+        align-self: unset;
+    }
+
+    .merchandising {
+        flex-direction: column;
+    }
+
+    .merchandising p {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .shirt {
+        width: 180px;
+    }
+
+    .buttonStyle, .buttonStyle2 {
+        border: 0;
+    }
 }

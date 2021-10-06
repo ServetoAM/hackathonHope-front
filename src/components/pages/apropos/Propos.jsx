@@ -8,7 +8,6 @@ import Untiltheend from "../../../assets/untiltheend.jpg";
 function Propos() {
     return (
         <div className="propos">
-            <h1 className="proposH1">A PROPOS</h1>
             <div className="Divpropos">
                 <h2 className="proposH2">Historique</h2>
             <div className="proposCombler" >

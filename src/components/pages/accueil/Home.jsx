@@ -3,6 +3,7 @@ import HS_Logo from '../../../assets/HS_Logo.png';
 import shirt_back from '../../../assets/shirt_back.png';
 import shirt_front from '../../../assets/shirt_front.png';
 import { FaTwitter, FaDiscord } from 'react-icons/fa';
+import { Link } from 'react-router-dom'
 import './Home.css'
 
 function Home() {
@@ -15,8 +16,8 @@ function Home() {
             </div>
 
             <div className="containerButton">
-                <div className="buttonStyle"><FaDiscord/></div>
-                <div className="buttonStyle2"><FaTwitter/></div>
+                <div className="buttonStyle"><a href="https://discord.com/invite/UQr4dSuHAk"  target="blank_"><FaDiscord className="color1"/></a></div>
+                <div className="buttonStyle2"><a href="https://twitter.com/HopeEsportHS" target="blank_"><FaTwitter className="color2"/></a></div>
             </div>       
 
 
