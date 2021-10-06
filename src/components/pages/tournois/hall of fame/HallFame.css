@@ -1,0 +1,46 @@
+.hallOfFame h1{
+	text-align:center;
+}
+
+.tableauHallOfFame {
+	width: 35%;
+	margin: auto;
+}
+
+.gagnant {
+	text-align: center;
+	font-size: 50px;
+	border: 6px solid black;
+	background: rgb(30,0,36);
+	background: rgb(30,0,36);
+	background: linear-gradient(0deg, rgba(173,88,43,1) 20%, rgba(73,20,20,1) 50%, rgba(30,0,36,1) 100%);
+}
+
+.gagnant h2 {
+	color: gold;
+	margin: 3vh 1vh 3vh 6vh;
+	width: 80%;
+	border-bottom: 2px solid black;
+}
+
+
+.leaderboard {
+	text-align: center;
+	border-top: 6px solid black;
+	border-left: 6px solid black;
+	border-right: 6px solid black;
+	font-size: 32px;
+	background-color: #e2dada;
+	color: black;
+}
+
+.leaderboard li {
+	border-bottom: 3px solid black;
+	list-style-type: none;
+	font-weight: bold;
+}
+
+.leaderboard li {
+	padding: 3vh 2vh 3vh 2vh;
+}
+
