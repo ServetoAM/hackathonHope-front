@@ -5,7 +5,7 @@ import Staff from './components/pages/staff/Staff.jsx';
 import WebTV from './components/pages/webTV/WebTV.jsx';
 import Home from './components/pages/accueil/Home.jsx';
 import Equipe from './components/pages/equipe/Equipe.jsx';
-
+import Brackets from './components/pages/tournois/brackets/Brackets.jsx';
 import HallFame from './components/pages/tournois/hall of fame/HallFame.jsx';
 
 import PlayerDetails from './components/playerCard/PlayerDetails';
@@ -24,8 +24,8 @@ function App() {
             <Route path="/equipe" component={Equipe}/>
             <Route path="/contact" component={ContactForm}/> 
             <Route path="/staff" component={Staff}/>
-
-            <Route path="/halloffame" component={HallFame}/>
+            <Route path="/brackets" component={Brackets}/>
+            <Route path="/hall-of-fame" component={HallFame}/>
 
             <Route path="/player/:id" component={PlayerDetails}/>
             <Route path="/a-propos" component={Propos}/>
