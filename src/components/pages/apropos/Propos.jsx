@@ -41,9 +41,9 @@ En août, Bongo et Roulian auront l’occasion de représenter nos couleurs via 
             <p className="proposP">
             Notre WebTV annoncera l’arrivée de streams réguliers, pour vous proposer un contenu audiovisuel, et vous faire connaître notre équipe et nos joueurs. Restez à l’affût des moindres informations !
             </p>
-            <div className="proposImage" >
+            {/* <div className="proposImage" >
                 <img className="Imagepropos" src={tournoiexemple} alt="Exemple tournoi"/>
-            </div>
+            </div> */}
 
                 <h2 className="proposH2">Ambitions :</h2>
            
