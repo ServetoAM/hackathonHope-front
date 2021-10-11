@@ -24,8 +24,13 @@
       width: 100%;
       height: 100%;
       backface-visibility: hidden;      
+      
+      
+      /* Si jamais ils changent d'avis, lignes du reflet !
+
       -webkit-box-reflect: below 0
-          linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4)140%);
+          linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4)140%); */
+          
   }
   .photo {
       width: 240px;
