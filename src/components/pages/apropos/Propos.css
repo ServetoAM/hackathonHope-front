@@ -1,0 +1,100 @@
+.propos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+
+.proposImageShake{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vw;
+}
+
+.ImageproposShake{
+    display: flex;
+    align-content:center;
+    width: 50%;
+}
+
+.proposCombler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4vw;
+}
+
+.proposComblerText{
+    display: flex;
+    width: 60%;
+}
+
+
+.Imagepropos{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.proposImage{
+    display: flex;
+    align-content:center;
+    justify-content: center;
+}
+
+.proposH1{
+    margin-top: 1vw;
+    /* border: 4px solid rgba(173,88,43,1);
+    border-radius: 10vw; */
+    padding: 1vw;
+    /* background-color: #e2dada;
+    color: rgba(30,0,36,1); */
+}
+
+.DivproposH2{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 4vw;
+}
+
+.proposH2{
+    display: flex;
+    border: 3px solid rgba(251,176,59,1);
+    justify-content: center;
+    /* background-color: #e2dada; */
+    /* color: rgba(30,0,36,1); */
+    border-radius: 10vw; 
+    padding: 1vw;
+    margin: 3vw;
+}
+
+.proposH3{
+    /* border: 3px solid rgba(73,20,20,1);
+    border-radius: 10vw; */
+    /* padding: 1vw; */
+    margin: 1vw;
+}
+
+.DivPuce{
+    display: flex;
+    flex-direction: row;
+}
+
+.proposP{
+    display: flex;
+    text-align: justify;
+    margin: 3vw;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.ImageAmbitions{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 3vw;
+}
