@@ -10,7 +10,7 @@
 .panel {
     display: flex;
     flex-direction: row;
-    margin-top: 4vh;
+		padding-top: 15vh;
     padding-right: 2vw;
     /* border: 2px rgb(243, 6, 46) solid; */
 }
@@ -49,22 +49,41 @@
 }
 
 .container-1 {
+	height: 51vh;
     display: flex;
     flex-direction: column;
     /* border: 2px rgb(3, 180, 250) solid; */
-    width: 50%;
     // justify-content: center;
     text-align: center;
 	width: 330px;
-	color: black;
-	background: rgb(30,0,36);
-	background: rgb(30,0,36);
-	background: linear-gradient(0deg, rgba(30,0,36,1) 0%, rgba(73,20,20,1) 30%, rgba(173,88,43,1) 60%, rgba(251,176,59,1) 100%);
+	// color: black;
+	
+	// background: rgb(30,0,36);
+	// background: linear-gradient(0deg, rgba(30,0,36,1) 0%, rgba(73,20,20,1) 30%, rgba(173,88,43,1) 60%, rgba(251,176,59,1) 100%);
 	margin: auto auto 15vh auto;
 	font-size: 15px;
-	border-radius: 9px;
-	box-shadow: 0px 0px 16px 9px rgba(0,0,0,0.38);
-	border: 2px solid black;
+	// border-radius: 9px;
+	// box-shadow: 0px 0px 16px 9px rgba(0,0,0,0.38);
+	// border: 2px solid black;
+}
+
+.topCard {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	height: 35vh;
+	border-radius: 9px 9px 0 0;
+	background: linear-gradient(-46deg, rgba(251,176,59,1) 0%, rgba(173,88,43,1) 44%, rgba(226,218,218,1) 49%, rgba(255,255,255,1) 50%, rgba(226,218,218,1) 51%, rgba(73,20,20,1) 56%, rgba(30,0,36,1) 100%);
+}
+
+.bottomCard {
+	height: 16vh;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	opacity: 1;
+	color: black;
+	border-radius: 0 0 9px 9px;
 }
 
 .cardTextStyle {
@@ -160,6 +179,7 @@
 	width: 20%;
 	margin: auto;
 	list-style-type: none;
+	padding-bottom: 5vh;
 	
 }
 
@@ -199,15 +219,33 @@
 	//   border-radius: 0 0 9px 0;
 		font-size: 30px;
 	}
-	
-
-	.full:hover {
-		background: rgb(30,0,36);
-		background: rgb(30,0,36);
-		background: linear-gradient(0deg, rgba(173,88,43,1) 30%, rgba(251,176,59,1) 100%);
-	}
 
 	.empty a{
 		cursor: default;
 	}
+}
+
+@media screen and (max-width: 1224px) {
+	.panel {
+		margin-top: 0;
+		padding-top: 10vh;
+	}
+
+	.panel {
+		text-align: center;
+	}
+
+	.main-info-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.container-1, .second-info, .container-2 {
+		margin-bottom: 3vh;
+	}
+
+	.socialIcon {
+		width: 80%;
+	}
+
 }

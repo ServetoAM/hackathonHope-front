@@ -1,5 +1,14 @@
+/* .hallOfFame h1{
+	text-align:center;
+}
+
+.hallOfFame {
+	padding-top: 15vh;
+}
+
 .hallOfFame h1{
 	text-align:center;
+	margin-bottom: 3vw;
 }
 
 .tableauHallOfFame {
@@ -20,7 +29,6 @@
 	color: gold;
 	margin: 3vh 1vh 3vh 6vh;
 	width: 80%;
-	border-bottom: 2px solid black;
 }
 
 
@@ -44,3 +52,59 @@
 	padding: 3vh 2vh 3vh 2vh;
 }
 
+
+.hallOfFame h1{
+	text-align:center;
+}
+
+.tableauHallOfFame {
+	width: 40%;
+	margin: auto;
+}
+
+.gagnant {
+	text-align: center;
+	font-size: 35px;
+	border: 6px solid black;
+	background: rgb(30,0,36);
+	background: rgb(30,0,36);
+	background: linear-gradient(0deg, rgba(173,88,43,1) 20%, rgba(73,20,20,1) 50%, rgba(30,0,36,1) 100%);
+}
+
+.leaderboard {
+	text-align: center;
+	border-top: 6px solid black;
+	border-left: 6px solid black;
+	border-right: 6px solid black;
+	font-size: 23px;
+	background-color: #e2dada;
+	color: black;
+}
+
+.leaderboard li {
+	border-bottom: 3px solid black;
+	list-style-type: none;
+	font-weight: bold;
+}
+
+.leaderboard li {
+	padding: 3vh 2vh 3vh 2vh;
+}
+
+@media screen and (max-width: 1224px) {
+	.gagnant h2 {
+		margin: auto;
+	}
+
+	.leaderboard li {
+		padding: 1.5vh 1vh 1.5vh 1vh;
+	}
+  .tableauHallOfFame {
+		width: 60%;
+	}
+
+	.hallOfFame h1 {
+		margin-top: 0;
+	}
+}
+ */

@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 10vh;
 }
 
 .homeSub{
@@ -10,15 +11,77 @@
     margin-bottom: 3vw;
 }
 
+.homeSub h1 {
+    width: 10%;
+    border-bottom: #e2dada 2px solid;
+}
+
 .homeTitle{
     display: flex;
     margin-top: 5vw;
-    margin-bottom: 1vw;
+    margin-bottom: 4vh;
     justify-content: center;
     text-align: justify;
     width: 60%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;   
+}
+
+.containerButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttonStyle {
+    border: #e2dada 2px solid;
+    font-size: 25px;
+    width: 7%;
+    height: 4vh;
+    padding-top: 1.3vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    text-align: center;
+}
+
+.buttonStyle:hover {
+    background: linear-gradient(0deg, rgba(73,20,20,1) 10%, rgba(30,0,36,1) 100%);
+}
+
+.buttonStyle2 {
+    border: #e2dada 2px solid;
+    font-size: 25px;
+    width: 7%;
+    height: 4vh;
+    padding-top: 1.3vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    text-align: center;
+}
+
+.buttonStyle2:hover {
+    background: linear-gradient(0deg, rgba(73,20,20,1) 10%, rgba(30,0,36,1) 100%);
+}
+
+
+.color1 {
+    color: #5865F2;
+}
+
+/* .color1:hover {
+    color: white;
+} */
+
+.color2 {
+    color: #1DA1F2;
+}
+
+/* .color2:hover {
+    color: #e2dada;
+} */
+
+.color {
+    color: white;
 }
 
 .homeText{
@@ -36,9 +99,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 2vw;
-    margin-left: 35vw;
-    margin-right:35vw;
 }
 
 .HSLogo1 {
@@ -50,7 +110,6 @@
 
 .shirt{
     width: 240px;
-    /* height: 15%; */
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -61,4 +120,48 @@
     margin-right: 20%;
     width: 10%;
     height: 10%;
+}
+
+.merchandising {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 7vh;
+    margin-bottom: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: #e2dada 2px solid;
+    width: 50%;
+}
+
+.merchandising p {
+    width: 20%;
+    text-align: right;
+}
+
+@media screen and (max-width: 1224px) {
+    .homeDiv {
+        padding-bottom: 13vh;
+    }
+    .HSLogo2 {
+        align-self: unset;
+    }
+
+    .merchandising {
+        flex-direction: column;
+    }
+
+    .merchandising p {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .shirt {
+        width: 180px;
+    }
+
+    .buttonStyle, .buttonStyle2 {
+        border: 0;
+    }
 }

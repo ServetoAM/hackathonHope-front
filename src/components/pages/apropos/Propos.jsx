@@ -3,11 +3,11 @@ import './Propos.css';
 import roulanvipere from '../../../assets/roulanvipere.png';
 import tournoiexemple from '../../../assets/tournoiexemple.png';
 import handshake from '../../../assets/handshake.jpg';
+import Untiltheend from "../../../assets/untiltheend.jpg";
 
 function Propos() {
     return (
         <div className="propos">
-            <h1 className="proposH1">A PROPOS</h1>
             <div className="Divpropos">
                 <h2 className="proposH2">Historique</h2>
             <div className="proposCombler" >
@@ -22,8 +22,8 @@ function Propos() {
                 Recruter des joueurs « espoirs », riches d’ambitions, afin de les pousser vers l’excellence.
                 A plus long terme, devenir une structure référente sur Hearthstone.
             </p>
-            <div className="proposImage" >
-                <img className="Imagepropos" src={roulanvipere} alt="Exemple Joueur"/>
+            <div className="proposImage1" >
+                <img className="Imagepropos1" src={roulanvipere} alt="Exemple Joueur"/>
             </div>
             <h3 className="proposH3">Afin de mener à bien nos projets, voici les étapes que nous avons parcourues jusqu’ici :</h3>
             
@@ -41,8 +41,8 @@ En août, Bongo et Roulian auront l’occasion de représenter nos couleurs via 
             <p className="proposP">
             Notre WebTV annoncera l’arrivée de streams réguliers, pour vous proposer un contenu audiovisuel, et vous faire connaître notre équipe et nos joueurs. Restez à l’affût des moindres informations !
             </p>
-            <div className="proposImage" >
-                <img className="Imagepropos" src={tournoiexemple} alt="Exemple tournoi"/>
+            <div className="proposImage2" >
+                <img className="Imagepropos2" src={tournoiexemple} alt="Exemple tournoi"/>
             </div>
 
                 <h2 className="proposH2">Ambitions :</h2>
@@ -68,6 +68,9 @@ Nous avons une grande volonté de nous intégrer en tant que structure vectrice 
             <p className="proposP">
 Pour ce qui est du moyen et long terme, nous voulons toucher le niveau européen. A très long terme, nous visons même des projets mondiaux. Car après tout, pourquoi devrions-nous nous fixer des limites ?
             </p>
+            <div className="untilEnd">
+            <img src={Untiltheend} alt="banniere hope" className="untilTheEnd" />
+            </div>
             </div>
         </div>
     )
