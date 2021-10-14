@@ -8,10 +8,10 @@ function Navbar() {
 	return (
 		<div className="navbar">
 			<div className="text-style1">
-				<Link to="/" className="button1" exact activeClassName="active">Accueil</Link>
-				<Link to="/web-tv" className="button1" activeClassName="active">Web TV</Link>
+				<Link to="/" className="button1 from-right" exact activeClassName="active">Accueil</Link>
+				<Link to="/web-tv" className="button1 from-right" activeClassName="active">Web TV</Link>
 
-			<div className="nav-listItem button1 style">Tournois<IoIosArrowDown className="arrow"/>
+			<div className="nav-listItem button1 from-right">Tournois<IoIosArrowDown className="arrow"/>
 
 					<ul  className="nav-listItemDrop">
 					<Link className="text-decoration" to="/brackets"><li className="button3">Brackets</li></Link>
