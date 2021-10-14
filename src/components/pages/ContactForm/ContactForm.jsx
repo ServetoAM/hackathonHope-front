@@ -5,7 +5,7 @@ const ContactForm = () => {
   const [status, setStatus] = useState("Envoyer");
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus("Sending...");
+    setStatus("Envoi...");
     const { name, email, motifs, message } = e.target.elements;
     let details = {
       name: name.value,
@@ -30,7 +30,7 @@ const ContactForm = () => {
       <p>Envoyez-nous un message via le formulaire ou contactez-nous directement via notre adresse mail :  <b>contact@hope-esport.fr</b></p>
       <form className="contactFormDiv" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name" className="contactLabel">Nom</label>
+          <label htmlFor="name" className="contactLabel">Pseudo / Prénom</label>
         </div>
 
         <div className="contact">
@@ -49,7 +49,7 @@ const ContactForm = () => {
           <select className="selectMotif" name="motifs" id="motifs"> 
             <option value="">Choisir un motif de contact</option>
             <option value="recrutement">Recrutement</option>
-            <option value="partenariat">Partenariat</option>
+            <option value="partenariat">Partenariat / Sponsoring</option>
             <option value="bug">Bug sur le site</option>
             <option value="autre">Autre</option>
           </select>
