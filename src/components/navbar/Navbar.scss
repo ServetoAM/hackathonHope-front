@@ -68,7 +68,7 @@ body {
 
 
 .button1:hover:after {
-	background: var(--inv);
+	background: linear-gradient(90deg, rgba(139,67,41,1) 0%, rgba(251,176,59,1) 100%);
 	transition-delay: .35s;
 }
 
