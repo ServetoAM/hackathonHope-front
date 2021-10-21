@@ -1,81 +1,111 @@
 #page-wrap {
   text-align: center;
-
-  /* Prevent sidebar from showing a scrollbar on page */
   overflow: auto;
 }
 
-/* Individual item */
+.bm-menu-wrap {
+  left: 0;
+}
+
 .bm-item {
   display: inline-block;
-
-  /* Our sidebar item styling */
   text-decoration: none;
   margin-bottom: 10px;
   color: #d1d1d1;
   transition: color 0.2s;
-}
 
-/* Change color on hover */
-.bm-item:hover {
+  &:hover {
   color: white;
+  }
 }
 
-/* The rest copied directly from react-burger-menu docs */
+.bm-item-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 
-/* Position and sizing of burger button */
+  a {
+    font-size: 30px;
+    padding-bottom: 2vh;
+  }
+}
+
 .bm-burger-button {
+  display: none;
   position: fixed;
   width: 36px;
   height: 30px;
   left: 36px;
-  top: 36px;
+  top: 5vh;
 	margin-top: -2vh;
 }
 
-/* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: white;
 }
 
-/* Position and sizing of clickable cross button */
+#react-burger-cross-btn {
+  width: 5.5vh !important;
+  height: 5.2vh !important;
+  top: 1vh !important;
+  left: 1.4vh !important;
+}
+
 .bm-cross-button {
   height: 24px;
   width: 24px;
+  left: 2vh;
+  right: 0 !important;
+
+  span { 
+    left: 2vh !important;
+  
+    .bm-cross {
+      background: #bdc3c7;
+      height: 6vh !important;
+    }
+  }
 }
 
-/* Color/shape of close button cross */
-.bm-cross {
-  background: #bdc3c7;
-}
-
-/* General sidebar styles */
 .bm-menu {
   background:#18181b;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
 
-/* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
   fill: #373a47;
 }
 
-/* Wrapper for item list */
 .bm-item-list {
   color: #b8b7ad;
 }
 
-/* Styling of overlay */
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
+  background: transparent;
+  left: 0;
 }
 
-@media screen and (min-width: 1224px) {
-	.bm-burger-button {
-		display: none ;
-    padding-bottom: 1vh;
-	}
-  
+@media screen and (max-width: 1224px) {
 
+  .bm-burger-button {
+    display: block;
+  }
+
+  .bm-menu-wrap {
+    left: 0;
+    width: 100% !important;
+  }
+  
+  .navbarMobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    background: rgb(22, 1, 26);
+    border-bottom: rgba(251,176,59,1) solid 3px;
+    height: 9.5vh;
+  }
 }

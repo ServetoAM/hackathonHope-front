@@ -3,6 +3,7 @@ import './NavbarMobile.scss'
 
 export default props => {
   return (
+    <div className="navbarMobile">
     <Menu {...props}>
       <a className="menu-item" href="/">
         Accueil
@@ -36,5 +37,6 @@ export default props => {
         Contact
       </a>
     </Menu>
+    </div>
   );
 };

@@ -8,10 +8,10 @@ function Navbar() {
 	return (
 		<div className="navbar">
 			<div className="text-style1">
-				<Link to="/" className="button1">Accueil</Link>
-				<Link to="/web-tv" className="button1">Web TV</Link>
+				<Link to="/" className="button1 from-right" exact activeClassName="active">Accueil</Link>
+				<Link to="/web-tv" className="button1 from-right" activeClassName="active">Web TV</Link>
 
-			<div className="nav-listItem button1">Tournois<IoIosArrowDown className="arrow"/>
+			<div className="nav-listItem button1 from-right">Tournois<IoIosArrowDown className="arrow"/>
 
 					<ul  className="nav-listItemDrop">
 					<Link className="text-decoration" to="/brackets"><li className="button3">Brackets</li></Link>
@@ -19,9 +19,9 @@ function Navbar() {
 						</ul>
 				</div>
 			</div>
-					<span className="polygon">
-						<Link to="/"><img className="logo" src={logo} alt="Logo Hope" /></Link>
-					</span>
+					
+						<Link to="/" className="container-logo"><img className="logo" src={logo} alt="Logo Hope" /></Link>
+					
 
 			<div className="text-style1">
 				<Link className="button2" to="/equipe">Équipe</Link>

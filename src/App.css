@@ -6,7 +6,8 @@
 }
 
 html {
-	background-color: #18181b;
+	background: rgb(22, 1, 26);
 	color: #e2dada;
+	--inv: linear-gradient(90deg, rgba(139,67,41,1) 0%, rgba(251,176,59,1) 100%);
 }
 
