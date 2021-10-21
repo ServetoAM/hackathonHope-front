@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './PlayerDetails.scss';
-import Prout from "../../assets/prout.png";
 import Controller from "../../assets/controller.png";
 import Mylife from "../../assets/mylife.png"
-import { FaTwitter, FaFacebookF, FaInstagram, FaTiktok, FaTwitch, FaDiscord } from 'react-icons/fa';
+import { FaTwitter, FaFacebookF, FaInstagram, FaTiktok, FaTwitch } from 'react-icons/fa';
 import axios from 'axios';
 
 function PlayerDetails(props) {
@@ -23,21 +22,27 @@ console.log(playerDetails)
         <div className="Main">
            <div className="panel">
                 <div className="right-panel">
-                    <p className="citation">"{playerDetails.quotes}"</p>
-                        <div className="name">
+                    
+                <div className="name">
                             <p>{playerDetails.firstname}</p>
                             <p>{playerDetails.lastname} </p>
                         </div>
+                    <p className="citation">"{playerDetails.quotes}"</p>
+                        
 
                     <div className="main-info-container"> 
 
                         <div className="container-1">
+                        <div className="topCard">
                         <img className="joueur" alt={playerDetails.firstname} src={process.env.PUBLIC_URL + "/assets/" + playerDetails.picture_player}/>
+                        </div>
+                            <div className="bottomCard">
                             <ul>
-                                <li className="cardTextStyle">{playerDetails.occupation}</li>
                                 <li className="cardTextStyle">{playerDetails.age}</li>
+                                <li className="cardTextStyle">{playerDetails.occupation}</li> 
                                 <li className="cardTextStyle">{playerDetails.qualities}</li>
                             </ul>
+                            </div>
                         </div>
 
                         <div className="second-info">

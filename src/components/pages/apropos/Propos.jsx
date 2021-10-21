@@ -2,12 +2,15 @@ import React from 'react';
 import './Propos.css';
 import roulanvipere from '../../../assets/roulanvipere.png';
 import handshake from '../../../assets/handshake.jpg';
+
+import Untiltheend from "../../../assets/untiltheend.jpg";
+
 import cuplevrai from '../../../assets/cuplevrai.png'
+
 
 function Propos() {
     return (
         <div className="propos">
-            <h1 className="proposH1">A PROPOS</h1>
             <div className="Divpropos">
                 <h2 className="proposH2">Historique</h2>
             <div className="proposCombler" >
@@ -22,8 +25,8 @@ function Propos() {
                 Recruter des joueurs « espoirs », riches d’ambitions, afin de les pousser vers l’excellence.
                 A plus long terme, devenir une structure référente sur Hearthstone.
             </p>
-            <div className="proposImage" >
-                <img className="Imagepropos" src={roulanvipere} alt="Exemple Joueur"/>
+            <div className="proposImage1" >
+                <img className="Imagepropos1" src={roulanvipere} alt="Exemple Joueur"/>
             </div>
             <h3 className="proposH3">Afin de mener à bien nos projets, voici les étapes que nous avons parcourues jusqu’ici :</h3>
             
@@ -41,13 +44,43 @@ En août, Bongo et Roulian auront l’occasion de représenter nos couleurs via 
             <p className="proposP">
             Notre WebTV annoncera l’arrivée de streams réguliers, pour vous proposer un contenu audiovisuel, et vous faire connaître notre équipe et nos joueurs. Restez à l’affût des moindres informations !
             </p>
+
+            <div className="proposImage2" >
+                <img className="Imagepropos2" src={tournoiexemple} alt="Exemple tournoi"/>
+            </div>
+
             {/* <div className="proposImage" >
                 <img className="Imagepropos" src={tournoiexemple} alt="Exemple tournoi"/>
             </div> */}
 
+
                 <h2 className="proposH2">Ambitions :</h2>
            
             <h3 className="proposH3">Nos ambitions à long terme sont claires :</h3>
+
+            
+            <p className="proposP">
+            Devenir une structure professionnelle et professionnalisante.
+            </p>
+
+            <p className="proposP">
+            Mettre en place un maximum d’évènements, à la fois en ligne, mais aussi en présentiel, afin de développer et promouvoir la scène Hearthstone (d’abord au niveau national, puis mondial).
+            </p>
+            <p className="proposP">
+            En outre, nous nous donnerons les moyens de devenir une des structures référentes sur Hearthstone. Nous tenons à voir nos joueurs progresser, tout en assurant une convivialité et une bonne entente !
+            </p>
+            <p className="proposP">
+Nous nous donnerons à cœur pour réaliser différents projets, afin de satisfaire la communauté Hearthstone.
+            </p>
+            <p className="proposP">
+Nous avons une grande volonté de nous intégrer en tant que structure vectrice du compétitif sur Hearthstone.
+            </p>
+            <p className="proposP">
+Pour ce qui est du moyen et long terme, nous voulons toucher le niveau européen. A très long terme, nous visons même des projets mondiaux. Car après tout, pourquoi devrions-nous nous fixer des limites ?
+            </p>
+            <div className="untilEnd">
+            <img src={Untiltheend} alt="banniere hope" className="untilTheEnd" />
+
             {/* display flex - row - margin bottom & top + div qui englobe  */}
             <div className="DivPuce">
                 <img className="ImageAmbitions" src={cuplevrai} alt="puce"/> 
@@ -84,6 +117,7 @@ En août, Bongo et Roulian auront l’occasion de représenter nos couleurs via 
                 <p className="proposP">
                     Pour ce qui est du moyen et long terme, nous voulons toucher le niveau européen. A très long terme, nous visons même des projets mondiaux. Car après tout, pourquoi devrions-nous nous fixer des limites ?
                 </p>
+
             </div>
             </div>
         </div>

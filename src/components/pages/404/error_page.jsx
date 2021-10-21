@@ -1,6 +1,5 @@
 import React from 'react'
 import './error_page.scss'
-import { Link } from 'react-router-dom'
 
 function error_page() {
 	return (

@@ -1,6 +1,5 @@
 import React from 'react'
 import './Navbar.scss'
-import { FaTwitter, FaDiscord } from 'react-icons/fa';
 import { IoIosArrowDown } from 'react-icons/io'
 import { Link } from 'react-router-dom';
 import logo from '../../assets/Logo_Hope_ESport_format_PNG.png'
@@ -31,6 +30,7 @@ function Navbar() {
 					<ul  className="nav-listItemDrop">
 					<Link className="text-decoration" to="/a-propos"><li className="button3">A propos</li></Link>
 					<Link className="text-decoration" to="/staff"><li className="button3">Staff</li></Link>
+					<a className="text-decoration" href=""><li className="button3">Boutique</li></a>
 						</ul>
 				</div>
 				<Link className="button2" to="/contact">Contact</Link>
