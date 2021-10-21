@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './PlayerDetails.scss';
 import Controller from "../../assets/controller.png";
 import Mylife from "../../assets/mylife.png"
-import { FaTwitter, FaFacebookF, FaInstagram, FaTiktok, FaTwitch, FaDiscord } from 'react-icons/fa';
+import { FaTwitter, FaFacebookF, FaInstagram, FaTiktok, FaTwitch } from 'react-icons/fa';
 import axios from 'axios';
 
 function PlayerDetails(props) {

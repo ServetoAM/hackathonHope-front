@@ -15,10 +15,7 @@ function StaffCard({staff}) {
 				<div className="grid-social">	
 					<li className={`${staff.twitter}` === "" ? 'empty' : 'full'}><a href={staff.twitter} target="blank_"><FaTwitter/></a></li>
 					<li className={`${staff.twitch}` === "" ? 'empty' : 'full'}><a href={staff.twitch} target="blank_"><FaTwitch/></a></li>
-					<li className={`${staff.instagram}` === "" ? 'empty' : 'full'}><a href={staff.instagram} target="blank_"><FaInstagram/></a></li>
-					<li className={`${staff.facebook}` === "" ? 'empty' : 'full'} ><a href={staff.facebook} target="blank_"><FaFacebookF/></a></li>
-					<li className={`${staff.tiktok}` === "" ? 'empty' : 'full'}><a href={staff.tiktok} target="blank_"><FaTiktok/></a></li>
-					
+					<li className={`${staff.instagram}` === "" ? 'empty' : 'full'}><a href={staff.instagram} target="blank_"><FaInstagram/></a></li>	
 				</div>
 			</ul>
 			</div>
