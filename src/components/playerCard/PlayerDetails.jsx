@@ -16,7 +16,6 @@ function PlayerDetails(props) {
         .then((data) => setPlayerDetails(data))
     }, [])
 
-console.log(playerDetails)
 
     return (
         <div className="Main">

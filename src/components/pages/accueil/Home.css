@@ -2,142 +2,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 10vh;
-}
-
-.homeSub{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 3vw;
-}
-
-.homeSub h1 {
-    width: 10%;
-    border-bottom: #e2dada 2px solid;
-}
-
-.homeTitle{
-    display: flex;
-    margin-top: 5vw;
-    margin-bottom: 4vh;
-    justify-content: center;
-    text-align: justify;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;   
-}
-
-.containerButton {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.buttonStyle {
-    border: #e2dada 2px solid;
-    font-size: 25px;
-    width: 7%;
-    height: 4vh;
-    padding-top: 1.3vh;
-    margin-right: 1vw;
-    margin-left: 1vw;
-    text-align: center;
-}
-
-.buttonStyle:hover {
-    background: linear-gradient(0deg, rgba(73,20,20,1) 10%, rgba(30,0,36,1) 100%);
-}
-
-.buttonStyle2 {
-    border: #e2dada 2px solid;
-    font-size: 25px;
-    width: 7%;
-    height: 4vh;
-    padding-top: 1.3vh;
-    margin-right: 1vw;
-    margin-left: 1vw;
-    text-align: center;
-}
-
-.buttonStyle2:hover {
-    background: linear-gradient(0deg, rgba(73,20,20,1) 10%, rgba(30,0,36,1) 100%);
-}
-
-
-.color1 {
-    color: #5865F2;
-}
-
-/* .color1:hover {
-    color: white;
-} */
-
-.color2 {
-    color: #1DA1F2;
-}
-
-/* .color2:hover {
-    color: #e2dada;
-} */
-
-.color {
-    color: white;
+    padding-top: 5vh;
 }
 
 .homeText{
     display: flex;
-    margin-top: 2vw;
+    margin-top: 8vh;
     margin-bottom: 3vw;
     justify-content: center;
     text-align: justify;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-}
-
-.homeShirt{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.HSLogo1 {
-    display: flex;
-    margin-left: 20%;
-    width: 10%;
-    height: 10%;
-}
-
-.shirt{
-    width: 240px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.HSLogo2 {
-    display: flex;
-    align-self: flex-end;
-    margin-right: 20%;
-    width: 10%;
-    height: 10%;
-}
-
-.merchandising {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 7vh;
-    margin-bottom: 4vh;
-    margin-left: auto;
-    margin-right: auto;
-    border-top: #e2dada 2px solid;
-    width: 50%;
-}
-
-.merchandising p {
-    width: 20%;
-    text-align: right;
 }
 
 @media screen and (max-width: 1224px) {
