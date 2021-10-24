@@ -1,5 +1,6 @@
 import React from "react";
 import "./Boutique.css";
+import shirt_front from "../../../assets/shirt_front.png";
 
 function Boutique() {
   return (
@@ -11,20 +12,23 @@ function Boutique() {
         pariatur minus. Quae recusandae voluptatum labore neque nemo tempore
         incidunt, voluptates omnis magni?
       </p>
-      <img src="" alt="Image Tshirt"></img>
+      <img
+        className="boutiqueShirtFront"
+        src={shirt_front}
+        alt="Image Tshirt"
+      />
       <p className="boutiqueP">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
         necessitatibus non vel rerum quam illo accusantium. Maiores ab ducimus
         fugit architecto reiciendis cum amet natus soluta, eum voluptas, aliquid
         omnis.
       </p>
-      <button
-        className="boutiqueButton"
+      <a
         target="_blank"
         href="https://eliminate.fr/categorie-produit/hope-esport/"
       >
-        Boutique
-      </button>
+        <button className="boutiqueButton">Boutique</button>
+      </a>
     </div>
   );
 }
