@@ -19,7 +19,7 @@ function Equipe() {
 
             {players.map((player) => (
                 <div key={player.id} className="team">
-                    <PlayerCard player={player}/>
+                    <PlayerCard playerCard={player}/>
                 </div>
             ))}
         </div>

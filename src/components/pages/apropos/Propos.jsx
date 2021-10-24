@@ -1,9 +1,12 @@
 import React from 'react';
 import './Propos.css';
 import roulanvipere from '../../../assets/roulanvipere.png';
-import tournoiexemple from '../../../assets/tournoiexemple.png';
 import handshake from '../../../assets/handshake.jpg';
+
 import Untiltheend from "../../../assets/untiltheend.jpg";
+
+import cuplevrai from '../../../assets/cuplevrai.png'
+
 
 function Propos() {
     return (
@@ -41,13 +44,20 @@ En août, Bongo et Roulian auront l’occasion de représenter nos couleurs via 
             <p className="proposP">
             Notre WebTV annoncera l’arrivée de streams réguliers, pour vous proposer un contenu audiovisuel, et vous faire connaître notre équipe et nos joueurs. Restez à l’affût des moindres informations !
             </p>
+
             <div className="proposImage2" >
                 <img className="Imagepropos2" src={tournoiexemple} alt="Exemple tournoi"/>
             </div>
 
+            {/* <div className="proposImage" >
+                <img className="Imagepropos" src={tournoiexemple} alt="Exemple tournoi"/>
+            </div> */}
+
+
                 <h2 className="proposH2">Ambitions :</h2>
            
             <h3 className="proposH3">Nos ambitions à long terme sont claires :</h3>
+
             
             <p className="proposP">
             Devenir une structure professionnelle et professionnalisante.
@@ -70,6 +80,44 @@ Pour ce qui est du moyen et long terme, nous voulons toucher le niveau européen
             </p>
             <div className="untilEnd">
             <img src={Untiltheend} alt="banniere hope" className="untilTheEnd" />
+
+            {/* display flex - row - margin bottom & top + div qui englobe  */}
+            <div className="DivPuce">
+                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/> 
+                <p className="proposP">
+                   Devenir une structure professionnelle et professionnalisante.
+                </p>
+            </div>
+            <div className="DivPuce">
+                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/> 
+                <p className="proposP">
+                    Mettre en place un maximum d’évènements, à la fois en ligne, mais aussi en présentiel, afin de développer et promouvoir la scène Hearthstone (d’abord au niveau national, puis mondial).
+                </p>
+            </div>
+            <div className="DivPuce">
+                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/>
+                <p className="proposP">
+                   En outre, nous nous donnerons les moyens de devenir une des structures référentes sur Hearthstone. Nous tenons à voir nos joueurs progresser, tout en assurant une convivialité et une bonne entente !
+                </p>
+            </div>
+            <div className="DivPuce">
+                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/>
+                <p className="proposP">
+                    Nous nous donnerons à cœur pour réaliser différents projets, afin de satisfaire la communauté Hearthstone.
+                </p>
+            </div>
+            <div className="DivPuce">
+                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/>
+                <p className="proposP">
+                    Nous avons une grande volonté de nous intégrer en tant que structure vectrice du compétitif sur Hearthstone.
+                </p>
+            </div>
+            <div className="DivPuce">
+                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/>
+                <p className="proposP">
+                    Pour ce qui est du moyen et long terme, nous voulons toucher le niveau européen. A très long terme, nous visons même des projets mondiaux. Car après tout, pourquoi devrions-nous nous fixer des limites ?
+                </p>
+
             </div>
             </div>
         </div>
