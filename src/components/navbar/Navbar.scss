@@ -12,9 +12,10 @@ body {
 	justify-content: space-around;
  	position: fixed;
 	width: 100%;
-	background: rgb(22, 1, 26);
+	background: rgb(63, 18, 71);
 	border-bottom: rgba(251,176,59,1) solid 3px;
 	height: 9.5vh;
+	z-index: 1;
 
 	&li {
 		margin: auto;
@@ -45,7 +46,7 @@ body {
     user-select: none;
 
     &:hover {
-    color: rgb(22, 1, 26);
+    color: rgb(63, 18, 71);
     transition: .5s;
     }
 
@@ -89,7 +90,7 @@ body {
     user-select: none;
 
     &:hover {
-    color: rgb(22, 1, 26);
+    color: rgb(63, 18, 71);
     transition: .5s;
     }
 
@@ -120,7 +121,8 @@ ul {
 .nav-listItemDrop {
 	border-radius: 8px;
 	position: absolute;
-	top: 2rem;
+	top: 7vh;
+	left: 3.8vw;
 	box-shadow: 0 0 5px black ;
 	background-color: #18181b;
 	text-align: left;
@@ -196,7 +198,10 @@ ul {
 	.nav-listItem, .nav-listItemDrop, .text-decoration{
 		display: none ;
 	}
+}
 
+.bm-cross-button {
+  left: 6vh;
 	.navbar {
 		display: flex;
 		flex-direction: row;

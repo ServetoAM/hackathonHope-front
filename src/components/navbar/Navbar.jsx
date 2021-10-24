@@ -30,7 +30,7 @@ function Navbar() {
 					<ul  className="nav-listItemDrop">
 					<Link className="text-decoration" to="/a-propos"><li className="button3">A propos</li></Link>
 					<Link className="text-decoration" to="/staff"><li className="button3">Staff</li></Link>
-					<a className="text-decoration" href=""><li className="button3">Boutique</li></a>
+					<a className="text-decoration" target="_blank" href="https://eliminate.fr/categorie-produit/hope-esport/"><li className="button3">Boutique</li></a>
 						</ul>
 				</div>
 				<Link className="button2" to="/contact">Contact</Link>

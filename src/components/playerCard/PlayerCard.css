@@ -1,46 +1,30 @@
-.containerPlayerCard {
-    position: relative;
-    width: 240px;
-    height: 300px;
-    cursor: pointer;
-    transform-style: preserve-3d;
-    margin-bottom: 8vh;
-    margin-right: 1vw;
-    margin-left: 1vw;
-    margin-top: -2px;
-    filter: grayscale(1);
-    transition: 500ms;
+.container-card {
+    width: 100%;
 }
 
-.containerPlayerCard:hover {
-    filter: grayscale(0);
-    transform: scale(1.1);
+.card {
+    position: relative;
+    transition: 1s ease-in-out;
+    transform-style: preserve-3d;
 }
   
-  .playerCard {
+  .card:hover {
+      transform: rotateY(0.5turn);
+  }
+  
+  .card_face {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
       backface-visibility: hidden;      
-      
-      
-      /* Si jamais ils changent d'avis, lignes du reflet !
-
-      -webkit-box-reflect: below 0
-          linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4)140%); */
-          
+      transition: 1s ease-in-out;
   }
-  .photo {
-      width: 240px;
-      height: 300px;
+  .card_face img {
       object-fit: cover;
   }
-
-  .pseudo {
-    width: 240px;
-    height: 250px;
-    object-fit: cover;
-    margin-top: -15vh;
-}
+  
+  .card_face-back {
+      transform: rotateY(0.5turn);
+  }
