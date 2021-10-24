@@ -30,6 +30,7 @@ function Navbar() {
 					<ul  className="nav-listItemDrop">
 					<Link className="text-decoration" to="/a-propos"><li className="button3">A propos</li></Link>
 					<Link className="text-decoration" to="/staff"><li className="button3">Staff</li></Link>
+					<Link className="text-decoration" to="/boutique"><li className="button3">Boutique</li></Link>
 						</ul>
 				</div>
 				<Link className="button2" to="/contact">Contact</Link>
