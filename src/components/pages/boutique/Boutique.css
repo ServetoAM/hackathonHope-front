@@ -17,27 +17,33 @@
   margin: 3vw;
 }
 
+.boutiqueDivShirt {
+  display: flex;
+  flex-direction: row;
+}
+
 .boutiqueShirtFront {
-  /* faire un background pour le faire ressortir */
   display: flex;
   border: 3px solid rgba(251, 176, 59, 1);
   justify-content: center;
   margin: 3vw;
-  background-color: rgb(102, 100, 100);
+  background-color: gray;
+  background-image: '../../../assets/backgroundHope.png';
+  height: 40vw;
 }
 
-.boutiqueP{
-display: flex;
-margin-top: 1vw;
-margin-bottom: 2vw;
+.boutiqueP {
+  display: flex;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
 }
 
 .boutiqueButton {
-  /* augmenter taille + reprendre couleur bordure */
   font-size: large;
   background-color: rgba(251, 176, 59, 1);
   padding-left: 2vw;
   padding-right: 2vw;
   padding-top: 0.5vw;
   padding-bottom: 0.5vw;
+/* ajout d'un hover */
 }
