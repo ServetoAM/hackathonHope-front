@@ -2,12 +2,15 @@
     width: 100%;
 }
 
+.joueur {
+    width: 20vw;
+}
+
 .player-card {
     position: relative;
     overflow: hidden;
     transition: all 1s ease-in-out;
-    width: 440px;
-    
+    width: 20vw;
 }
 
 .card-move {
@@ -27,7 +30,12 @@
 .irl {
     display: flex;
     flex-direction: column;
+    width: 20vw;
     text-align: center;
+    align-items: center;
+    margin-top: -135%;
+    color: rgba(251,176,59,1);
+    text-shadow: 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px rgb(41, 20, 44), 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60;
 }
 
 .irl-name {
@@ -69,12 +77,10 @@
 .social-media {
     display: flex;
     flex-direction: row;
+    font-size: 30px;
 }
 
 .discord {
     margin-bottom: 1vh;
 }
 
-.social-media li {
-    text-decoration: none;
-}

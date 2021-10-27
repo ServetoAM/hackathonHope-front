@@ -49,7 +49,8 @@ const ContactForm = () => {
           <select className="selectMotif" name="motifs" id="motifs"> 
             <option value="">Choisir un motif de contact</option>
             <option value="recrutement">Recrutement</option>
-            <option value="partenariat">Partenariat / Sponsoring</option>
+            <option value="partenariat">Partenariat</option>
+            <option value="partenariat">Sponsoring</option>
             <option value="bug">Bug sur le site</option>
             <option value="autre">Autre</option>
           </select>
