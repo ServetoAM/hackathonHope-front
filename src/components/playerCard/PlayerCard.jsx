@@ -24,12 +24,9 @@ function PlayerCard({playerCard}) {
                         <div className="occupation">{playerCard.occupation}</div>
             
                         <div className="qualities-quotes">
-                            <div className="quotes">"{playerCard.quotes}"</div>
                             <div className="qualities">{playerCard.qualities}</div>       
                         </div>
                         <div>
-                            <div className="other-games">Joue aussi à {playerCard.other_games}</div>
-                            <div className="description-player">{playerCard.description_player}</div>
                             <div className="discord">Discord : {playerCard.discord}</div> 
                         </div>
                         {/* <div className="social-media">                 
