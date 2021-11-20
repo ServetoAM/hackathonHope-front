@@ -13,10 +13,10 @@ function PlayerCard({playerCard}) {
                     <div className="card_face">
                     <img className="joueur" alt={playerCard.firstname} src={process.env.PUBLIC_URL + "/assets/" + playerCard.picture_player}/>
                     </div>
-                    <div className="card_face-back boobs">    
+                    <div className="card_face-back">    
                         <img className="joueur" alt={playerCard.firstname} src={process.env.PUBLIC_URL + "/assets/" + playerCard.picture_player_reverse}/>
                     
-                    <div className="irl boobs caca">    
+                    <div className="irl">    
                         <div className="irl-name">
                             <div className="irl-name-info-name">{playerCard.firstname} {playerCard.lastname}</div>
                             <div className="irl-name-info">{playerCard.age}</div>
