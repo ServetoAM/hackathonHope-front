@@ -59,13 +59,15 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	border-top: 2px solid black;
+	background-color: #18181b;
 	width: 100%;
 }
 
 .grid-social {
 
 	li a {
+		display: flex;
+		justify-content: center;
 		color: white;
 	}
 

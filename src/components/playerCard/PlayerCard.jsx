@@ -1,7 +1,7 @@
-import "./PlayerCard.css"
+import "./PlayerCard.scss"
 import React from 'react';
 import Controller from "../../assets/controller.png";
-import { FaTwitter, FaFacebookF, FaInstagram, FaTiktok, FaTwitch, FaDiscord } from 'react-icons/fa';
+import { FaTwitter, FaInstagram, FaTwitch } from 'react-icons/fa';
 
 
 function PlayerCard({playerCard}) {
@@ -18,8 +18,7 @@ function PlayerCard({playerCard}) {
                     
                     <div className="irl boobs caca">    
                         <div className="irl-name">
-                            <div className="irl-name-info">{playerCard.firstname}</div>
-                            <div className="irl-name-info">{playerCard.lastname}</div>
+                            <div className="irl-name-info-name">{playerCard.firstname} {playerCard.lastname}</div>
                             <div className="irl-name-info">{playerCard.age}</div>
                         </div>
                         <div className="occupation">{playerCard.occupation}</div>
@@ -33,15 +32,19 @@ function PlayerCard({playerCard}) {
                             <div className="description-player">{playerCard.description_player}</div>
                             <div className="discord">Discord : {playerCard.discord}</div> 
                         </div>
-                        
-                        <div className="social-media">                 
+                        {/* <div className="social-media">                 
                             <div className={`${playerCard.twitter}` === "" ? 'empty' : 'full'}><a href={playerCard.twitter} target="blank_"><FaTwitter/></a></div>
                             <div className={`${playerCard.twitch}` === "" ? 'empty' : 'full'}><a href={playerCard.twitch} target="blank_"><FaTwitch/></a></div>
                             <div className={`${playerCard.instagram}` === "" ? 'empty' : 'full'}><a href={playerCard.instagram} target="blank_"><FaInstagram/></a></div>
-                        </div>
+                        </div> */}
                     </div> 
                     </div>
                 </div>
+                <div className="grid-social">	
+				<li className={`${playerCard.twitter}` === "" ? 'empty' : 'full'}><a href={playerCard.twitter} target="blank_"><FaTwitter/></a></li>
+				<li className={`${playerCard.twitch}` === "" ? 'empty' : 'full'}><a href={playerCard.twitch} target="blank_"><FaTwitch/></a></li>
+				<li className={`${playerCard.instagram}` === "" ? 'empty' : 'full'}><a href={playerCard.instagram} target="blank_"><FaInstagram/></a></li>	
+        	</div>
             </div>
         </div>
             
