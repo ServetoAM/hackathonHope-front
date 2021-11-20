@@ -35,11 +35,12 @@
 .Imagepropos1{
     display: flex;
     width: 50%;
+   
 }
 
 .proposImage1{
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 
 .Imagepropos2{
@@ -87,12 +88,15 @@
     /* border: 3px solid rgba(73,20,20,1);
     border-radius: 10vw; */
     /* padding: 1vw; */
+    display: flex;
+    justify-content: center;
     margin: 1vw;
 }
 
 .DivPuce{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .proposP{
@@ -104,12 +108,18 @@
 
 .untilEnd {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 .untilTheEnd {
     width: 50%;
     display: flex;  
+}
+
+.UTE{
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1224px) {
@@ -122,8 +132,8 @@
         margin: 0 0 2vh 0;
     }
 
-    margin-bottom: auto;
-    margin-top: auto;
+    /* margin-bottom: auto;
+    margin-top: auto; */
 }
 
 .ImageAmbitions{
