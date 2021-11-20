@@ -45,9 +45,9 @@ En août, Bongo et Roulian auront l’occasion de représenter nos couleurs via 
             Notre WebTV annoncera l’arrivée de streams réguliers, pour vous proposer un contenu audiovisuel, et vous faire connaître notre équipe et nos joueurs. Restez à l’affût des moindres informations !
             </p>
 
-            <div className="proposImage2" >
+            {/* <div className="proposImage2" >
                 <img className="Imagepropos2" src={tournoiexemple} alt="Exemple tournoi"/>
-            </div>
+            </div> */}
 
             {/* <div className="proposImage" >
                 <img className="Imagepropos" src={tournoiexemple} alt="Exemple tournoi"/>
@@ -118,6 +118,7 @@ Pour ce qui est du moyen et long terme, nous voulons toucher le niveau européen
                     Pour ce qui est du moyen et long terme, nous voulons toucher le niveau européen. A très long terme, nous visons même des projets mondiaux. Car après tout, pourquoi devrions-nous nous fixer des limites ?
                 </p>
 
+            </div>
             </div>
             </div>
         </div>
