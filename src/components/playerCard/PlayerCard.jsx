@@ -1,5 +1,6 @@
 import "./PlayerCard.css"
 import React from 'react';
+import Controller from "../../assets/controller.png";
 import { FaTwitter, FaFacebookF, FaInstagram, FaTiktok, FaTwitch, FaDiscord } from 'react-icons/fa';
 
 
