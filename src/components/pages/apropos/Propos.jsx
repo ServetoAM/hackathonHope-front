@@ -208,12 +208,13 @@ function Propos() {
                 <p className="proposP">
                     Pour ce qui est du moyen et long terme, nous voulons toucher le niveau européen. A très long terme, nous visons même des projets mondiaux. Car après tout, pourquoi devrions-nous nous fixer des limites ?
                 </p>
-
-            </div>
-            </div>
             </div>
         </div>
-    )
+        </div>        
+        </div>
+        </div>
+        </div>
+)
 }
 
 export default Propos;
