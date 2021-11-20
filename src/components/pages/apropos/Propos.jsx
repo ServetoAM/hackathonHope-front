@@ -52,7 +52,6 @@ function Propos() {
           Cependant ce n’est que le début pour notre équipe ambitieuse car après
           tout, pourquoi devrions-nous nous fixer des limites ?
         </p>
-<<<<<<< HEAD
         <p>#untiltheend</p>
       </div>
       <div className="untilEnd">
@@ -60,125 +59,6 @@ function Propos() {
       </div>
     </div>
   );
-=======
-
-        <p className="proposP">
-          Mettre en place un maximum d’évènements, à la fois en ligne, mais
-          aussi en présentiel, afin de développer et promouvoir la scène
-          Hearthstone (d’abord au niveau national, puis mondial).
-        </p>
-        <p className="proposP">
-          En outre, nous nous donnerons les moyens de devenir une des structures
-          référentes sur Hearthstone. Nous tenons à voir nos joueurs progresser,
-          tout en assurant une convivialité et une bonne entente !
-        </p>
-        <p className="proposP">
-          Nous nous donnerons à cœur pour réaliser différents projets, afin de
-          satisfaire la communauté Hearthstone.
-        </p>
-        <p className="proposP">
-          Nous avons une grande volonté de nous intégrer en tant que structure
-          vectrice du compétitif sur Hearthstone.
-        </p>
-        <p className="proposP">
-          Pour ce qui est du moyen et long terme, nous voulons toucher le niveau
-          européen. A très long terme, nous visons même des projets mondiaux.
-          Car après tout, pourquoi devrions-nous nous fixer des limites ?
-        </p>
-        <div className="untilEnd">
-          {/* display flex - row - margin bottom & top + div qui englobe  */}
-          <div className="DivPuce">
-            <img className="ImageAmbitions" src={cuplevrai} alt="puce" />
-            <p className="proposP">
-              Devenir une structure professionnelle et professionnalisante.
-            </p>
-          </div>
-          <div className="DivPuce">
-            <img className="ImageAmbitions" src={cuplevrai} alt="puce" />
-            <p className="proposP">
-              Mettre en place un maximum d’évènements, à la fois en ligne, mais
-              aussi en présentiel, afin de développer et promouvoir la scène
-              Hearthstone (d’abord au niveau national, puis mondial).
-            </p>
-          </div>
-          <div className="DivPuce">
-            <img className="ImageAmbitions" src={cuplevrai} alt="puce" />
-            <p className="proposP">
-              En outre, nous nous donnerons les moyens de devenir une des
-              structures référentes sur Hearthstone. Nous tenons à voir nos
-              joueurs progresser, tout en assurant une convivialité et une bonne
-              entente !
-            </p>
-          </div>
-          <div className="DivPuce">
-            <img className="ImageAmbitions" src={cuplevrai} alt="puce" />
-            <p className="proposP">
-              Nous nous donnerons à cœur pour réaliser différents projets, afin
-              de satisfaire la communauté Hearthstone.
-            </p>
-          </div>
-          <div className="DivPuce">
-            <img className="ImageAmbitions" src={cuplevrai} alt="puce" />
-            <p className="proposP">
-              Nous avons une grande volonté de nous intégrer en tant que
-              structure vectrice du compétitif sur Hearthstone.
-            </p>
-          </div>
-          <div className="DivPuce">
-            <img className="ImageAmbitions" src={cuplevrai} alt="puce" />
-            <p className="proposP">
-              Pour ce qui est du moyen et long terme, nous voulons toucher le
-              niveau européen. A très long terme, nous visons même des projets
-              mondiaux. Car après tout, pourquoi devrions-nous nous fixer des
-              limites ?
-            </p>
-            <div className="untilEnd">
-            <img src={Untiltheend} alt="banniere hope" className="untilTheEnd" />
-
-            {/* display flex - row - margin bottom & top + div qui englobe  */}
-            <div className="DivPuce">
-                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/> 
-                <p className="proposP">
-                   Devenir une structure professionnelle et professionnalisante.
-                </p>
-            </div>
-            <div className="DivPuce">
-                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/> 
-                <p className="proposP">
-                    Mettre en place un maximum d’évènements, à la fois en ligne, mais aussi en présentiel, afin de développer et promouvoir la scène Hearthstone (d’abord au niveau national, puis mondial).
-                </p>
-            </div>
-            <div className="DivPuce">
-                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/>
-                <p className="proposP">
-                   En outre, nous nous donnerons les moyens de devenir une des structures référentes sur Hearthstone. Nous tenons à voir nos joueurs progresser, tout en assurant une convivialité et une bonne entente !
-                </p>
-            </div>
-            <div className="DivPuce">
-                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/>
-                <p className="proposP">
-                    Nous nous donnerons à cœur pour réaliser différents projets, afin de satisfaire la communauté Hearthstone.
-                </p>
-            </div>
-            <div className="DivPuce">
-                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/>
-                <p className="proposP">
-                    Nous avons une grande volonté de nous intégrer en tant que structure vectrice du compétitif sur Hearthstone.
-                </p>
-            </div>
-            <div className="DivPuce">
-                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/>
-                <p className="proposP">
-                    Pour ce qui est du moyen et long terme, nous voulons toucher le niveau européen. A très long terme, nous visons même des projets mondiaux. Car après tout, pourquoi devrions-nous nous fixer des limites ?
-                </p>
-            </div>
-        </div>
-        </div>        
-        </div>
-        </div>
-        </div>
-)
->>>>>>> 46e7e9740897eb5b3051d226b9dbefbca0ed8467
 }
 
 export default Propos;
