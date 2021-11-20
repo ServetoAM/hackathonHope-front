@@ -2,7 +2,7 @@ import React from 'react';
 import './Propos.css';
 import roulanvipere from '../../../assets/roulanvipere.png';
 import handshake from '../../../assets/handshake.jpg';
-
+import tournoiexemple from '../../../assets/tournoiexemple.png'
 import Untiltheend from "../../../assets/untiltheend.jpg";
 
 import cuplevrai from '../../../assets/cuplevrai.png'
@@ -121,7 +121,8 @@ Pour ce qui est du moyen et long terme, nous voulons toucher le niveau européen
             </div>
             </div>
         </div>
+        </div>
     )
 }
 
-export default Propos
+export default Propos;
