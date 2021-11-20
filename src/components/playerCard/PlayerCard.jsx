@@ -1,20 +1,47 @@
-import "./PlayerCard.css"
+import "./PlayerCard.scss"
 import React from 'react';
 import Controller from "../../assets/controller.png";
-// import { FaTwitter, FaFacebookF, FaInstagram, FaTiktok, FaTwitch, FaDiscord } from 'react-icons/fa';
+import { FaTwitter, FaInstagram, FaTwitch } from 'react-icons/fa';
 
 
 function PlayerCard({playerCard}) {
 
     return (
         <div className="container-card">   
-            <div className="card">
-                <div className="card_face">
+            <div className="player-card">
+                <div className="card-move">
+                    <div className="card_face">
                     <img className="joueur" alt={playerCard.firstname} src={process.env.PUBLIC_URL + "/assets/" + playerCard.picture_player}/>
+                    </div>
+                    <div className="card_face-back">    
+                        <img className="joueur" alt={playerCard.firstname} src={process.env.PUBLIC_URL + "/assets/" + playerCard.picture_player_reverse}/>
+                    
+                    <div className="irl">    
+                        <div className="irl-name">
+                            <div className="irl-name-info-name">{playerCard.firstname} {playerCard.lastname}</div>
+                            <div className="irl-name-info">{playerCard.age}</div>
+                        </div>
+                        <div className="occupation">{playerCard.occupation}</div>
+            
+                        <div className="qualities-quotes">
+                            <div className="qualities">{playerCard.qualities}</div>       
+                        </div>
+                        <div>
+                            <div className="discord">Discord : {playerCard.discord}</div> 
+                        </div>
+                        {/* <div className="social-media">                 
+                            <div className={`${playerCard.twitter}` === "" ? 'empty' : 'full'}><a href={playerCard.twitter} target="blank_"><FaTwitter/></a></div>
+                            <div className={`${playerCard.twitch}` === "" ? 'empty' : 'full'}><a href={playerCard.twitch} target="blank_"><FaTwitch/></a></div>
+                            <div className={`${playerCard.instagram}` === "" ? 'empty' : 'full'}><a href={playerCard.instagram} target="blank_"><FaInstagram/></a></div>
+                        </div> */}
+                    </div> 
+                    </div>
                 </div>
-                <div className="card_face card_face-back">    
-                    <img className="joueur" alt={playerCard.firstname} src={process.env.PUBLIC_URL + "/assets/" + playerCard.picture_player_reverse}/>
-                </div>
+                <div className="grid-social">	
+				<li className={`${playerCard.twitter}` === "" ? 'empty' : 'full'}><a href={playerCard.twitter} target="blank_"><FaTwitter/></a></li>
+				<li className={`${playerCard.twitch}` === "" ? 'empty' : 'full'}><a href={playerCard.twitch} target="blank_"><FaTwitch/></a></li>
+				<li className={`${playerCard.instagram}` === "" ? 'empty' : 'full'}><a href={playerCard.instagram} target="blank_"><FaInstagram/></a></li>	
+        	</div>
             </div>
         </div>
             

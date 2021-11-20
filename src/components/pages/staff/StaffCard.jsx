@@ -1,12 +1,16 @@
 import React from 'react'
 import './StaffCard.scss'
-import { FaTwitter, FaFacebookF, FaInstagram, FaTiktok, FaTwitch, FaDiscord } from 'react-icons/fa'
+import { FaTwitter, FaInstagram, FaTwitch } from 'react-icons/fa'
+import background_staff from "../../../assets/fond3.png"
 
 function StaffCard({staff}) {
 	return (
 		<div className="card">
 			<div className="card-style">
+				<div className="top-container">
+				<img className="background-card" src={background_staff} alt="background_staff_card" />
 				<img className="staff-logo" alt={staff.staff_firstname} src={process.env.PUBLIC_URL +  staff.staff_name}/>
+				</div>
 			<ul>
 				<li className="card-text-style">{staff.firstname}</li>
 				<li className="card-text-style">{staff.age}</li>

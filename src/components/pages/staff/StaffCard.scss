@@ -11,13 +11,22 @@
 	text-align: center;
 	width: 330px;
 	color: black;
-	background: rgb(30,0,36);
-	background: rgb(30,0,36);
-	background: linear-gradient(0deg, rgba(30,0,36,1) 0%, rgba(73,20,20,1) 50%, rgba(173,88,43,1) 60%, rgba(251,176,59,1) 100%);
 	margin: auto auto 15vh auto;
 	border: 2px solid;
 	border-radius: 9px;
 	box-shadow: 0px 0px 16px 9px rgba(0,0,0,0.38);
+}
+
+.top-container {
+	width: 100%;
+}
+
+.background-card {
+	display: flex;
+	position: absolute;
+	width: 34.2vh;
+	z-index: -1;
+	border-radius: 9px 9px 0 0;
 }
 
 .staff-logo {
@@ -50,6 +59,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	background-color: #18181b;
 	border-top: 2px solid black;
 	width: 100%;
 }
@@ -57,6 +67,8 @@
 .grid-social {
 
 	li a {
+		display: flex;
+		justify-content: center;
 		color: white;
 	}
 
