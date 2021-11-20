@@ -15,8 +15,18 @@ function Propos() {
         <div className="proposCombler">
           <div className="proposComblerText">
             <p className="proposP">
-              Afin de combler leurs différents objectifs, SKZ et Zary décident
-              de créer leur propre structure en décembre 2020.
+            Nous avons commencé par recruter un staff afin d’assurer le bon développement de la structure.
+            La suite logique fut le recrutement de joueurs prometteurs : Roulian, Logoss et Bongo, qui se qualifient régulièrement aux tournois mondiaux (Master Tour).
+            Afin de rassembler notre communauté, nous avons organisé notre premier tournoi communautaire en juin 2021.
+            En août, Bongo et Roulian auront l’occasion de représenter nos couleurs via leur participation au Master Tour Silvermoon.  
+            </p>
+            
+            <p className="proposP">
+            Notre site web constitue l’accès direct à tous les réseaux sociaux de nos joueurs, mais également du staff, et bien évidemment de la structure. Notre Discord communautaire se développe à grande vitesse, ce qui va accélérer l’arrivée de nouveaux tournois et de nos concepts originaux.
+            </p>
+            
+            <p className="proposP">
+            Notre WebTV annoncera l’arrivée de streams réguliers, pour vous proposer un contenu audiovisuel, et vous faire connaître notre équipe et nos joueurs. Restez à l’affût des moindres informations !
             </p>
           </div>
           <img
@@ -159,19 +169,51 @@ function Propos() {
               mondiaux. Car après tout, pourquoi devrions-nous nous fixer des
               limites ?
             </p>
-          </div>
-          <span className="UTE">
-            <img
-              src={Untiltheend}
-              alt="banniere hope"
-              className="untilTheEnd"
-            />
-          </span>
+            <div className="untilEnd">
+            <img src={Untiltheend} alt="banniere hope" className="untilTheEnd" />
+
+            {/* display flex - row - margin bottom & top + div qui englobe  */}
+            <div className="DivPuce">
+                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/> 
+                <p className="proposP">
+                   Devenir une structure professionnelle et professionnalisante.
+                </p>
+            </div>
+            <div className="DivPuce">
+                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/> 
+                <p className="proposP">
+                    Mettre en place un maximum d’évènements, à la fois en ligne, mais aussi en présentiel, afin de développer et promouvoir la scène Hearthstone (d’abord au niveau national, puis mondial).
+                </p>
+            </div>
+            <div className="DivPuce">
+                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/>
+                <p className="proposP">
+                   En outre, nous nous donnerons les moyens de devenir une des structures référentes sur Hearthstone. Nous tenons à voir nos joueurs progresser, tout en assurant une convivialité et une bonne entente !
+                </p>
+            </div>
+            <div className="DivPuce">
+                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/>
+                <p className="proposP">
+                    Nous nous donnerons à cœur pour réaliser différents projets, afin de satisfaire la communauté Hearthstone.
+                </p>
+            </div>
+            <div className="DivPuce">
+                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/>
+                <p className="proposP">
+                    Nous avons une grande volonté de nous intégrer en tant que structure vectrice du compétitif sur Hearthstone.
+                </p>
+            </div>
+            <div className="DivPuce">
+                <img className="ImageAmbitions" src={cuplevrai} alt="puce"/>
+                <p className="proposP">
+                    Pour ce qui est du moyen et long terme, nous voulons toucher le niveau européen. A très long terme, nous visons même des projets mondiaux. Car après tout, pourquoi devrions-nous nous fixer des limites ?
+                </p>
+
+            </div>
+            </div>
+            </div>
         </div>
-      </div>
-    </div>
-    // </div>
-  );
+    )
 }
 
 export default Propos;
