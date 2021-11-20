@@ -32,9 +32,9 @@ function Propos() {
             
             <p className="proposP">
             Nous avons commencé par recruter un staff afin d’assurer le bon développement de la structure.
-La suite logique fut le recrutement de joueurs prometteurs : Roulian, Logoss et Bongo, qui se qualifient régulièrement aux tournois mondiaux (Master Tour).
-Afin de rassembler notre communauté, nous avons organisé notre premier tournoi communautaire en juin 2021.
-En août, Bongo et Roulian auront l’occasion de représenter nos couleurs via leur participation au Master Tour Silvermoon.  
+            La suite logique fut le recrutement de joueurs prometteurs : Roulian, Logoss et Bongo, qui se qualifient régulièrement aux tournois mondiaux (Master Tour).
+            Afin de rassembler notre communauté, nous avons organisé notre premier tournoi communautaire en juin 2021.
+            En août, Bongo et Roulian auront l’occasion de représenter nos couleurs via leur participation au Master Tour Silvermoon.  
             </p>
             
             <p className="proposP">
@@ -121,7 +121,6 @@ Pour ce qui est du moyen et long terme, nous voulons toucher le niveau européen
             </div>
             </div>
             </div>
-        </div>
         </div>
     )
 }
