@@ -4,20 +4,20 @@ import React from 'react';
 // import shirt_front from '../../../assets/shirt_front.png';
 // import { FaTwitter, FaDiscord } from 'react-icons/fa';
 // import { Link } from 'react-router-dom'
-import './Home.css'
+import './Home.css';
+import Timer from '../../timer/Timer';
 import Twitter from '../../twitter/Twitter';
 
 function Home() {
     return (
         <div>
+            <Timer />
             <div className="homeDiv">      
                 <p className="homeText">La Hope ESport est une association française créée en 2021 qui réunit des joueurs Hearthstone en une équipe compétitive. </p>
                 <p className="homeText">Pour découvrir nos joueurs, notre staff, nos objectifs et plein d’autres choses encore, ce site est fait pour vous.</p>
                 <p className="homeText">Voici notre site web contenant toutes ces informations.</p>
             </div>
-            <div>
-                <Twitter />
-            </div>
+            <Twitter />
         </div>
     )
 }
