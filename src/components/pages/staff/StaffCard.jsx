@@ -1,7 +1,7 @@
 import React from 'react'
 import './StaffCard.scss'
-import { FaTwitter, FaFacebookF, FaInstagram, FaTiktok, FaTwitch, FaDiscord } from 'react-icons/fa'
-import background_staff from "../../../assets/fond2.png"
+import { FaTwitter, FaInstagram, FaTwitch } from 'react-icons/fa'
+import background_staff from "../../../assets/fond3.png"
 
 function StaffCard({staff}) {
 	return (
