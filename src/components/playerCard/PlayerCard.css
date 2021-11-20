@@ -20,11 +20,11 @@
 
 .card-move:hover {
     transform: translateX(-100%);
-    transition: all 1s ease-in-out;  
+    transition: all 0.8s ease-in-out;  
 }
 
 .card-move:not(:hover){
-    transition: all 1s ease-in-out;
+    transition: all 0.8s ease-in-out;
    }
 
 .irl {
@@ -46,7 +46,6 @@
     transform: translateY(50px);
     -webkit-transform: translateY(50px);
     opacity: 0;
-        
 }
 
 .irl:hover {
