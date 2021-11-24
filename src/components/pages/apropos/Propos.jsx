@@ -1,16 +1,12 @@
 import React from "react";
 import "./Propos.css";
-import roulanvipere from "../../../assets/roulanvipere.png";
-import handshake from "../../../assets/handshake.jpg";
-import tournoiexemple from "../../../assets/tournoiexemple.png";
 import Untiltheend from "../../../assets/untiltheend.jpg";
-
-import cuplevrai from "../../../assets/cuplevrai.png";
 
 function Propos() {
   return (
     <div className="propos">
       <div className="proposText">
+        <h2>A propos de notre association</h2>
         <p>
           De compétiteurs à entrepreneurs, deux amis Bordelais Florian
           Guéraçague et Jules Arino décident de créer leur propre structure

@@ -8,22 +8,28 @@
 }
 
 .proposText{
+    margin-top: 15vh;
     display: flex;
     position: relative;
     flex-direction: column;
     width: 75%;
 }
 
+.proposText h2 {
+    text-align: center;
+}
+
 .untilEnd {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 100vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .untilTheEnd {
-    width: 50%;
+    width: 30%;
     display: flex;
-    justify-content: center;  
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
