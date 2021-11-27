@@ -12,16 +12,16 @@ function Navbar() {
 				<Link to="/web-tv" className="button1 from-right" activeClassName="active">Web TV</Link>
 				<Link to="/boutique" className="nav-listItem button1 from-right">Boutique</Link>
 			</div>
-						<Link to="/" className="container-logo"><img className="logo" src={logo} alt="Logo Hope" /></Link>
+			<Link to="/" className="container-logo">
+				<img className="logo" src={logo} alt="Logo Hope" />
+			</Link>
 			<div className="text-style1">
 				<Link className="button2" to="/equipe">Équipe</Link>
 				<div className="nav-listItem button2">L'association<IoIosArrowDown className="arrow"/>
-
 					<ul  className="nav-listItemDrop">
 					<Link className="text-decoration" to="/a-propos"><li className="button3">A propos</li></Link>
 					<Link className="text-decoration" to="/staff"><li className="button3">Staff</li></Link>
-					{/* <Link className="text-decoration" to="/boutique"><li className="button3">Boutique</li></Link> */}
-						</ul>
+					</ul>
 				</div>
 				<Link className="button2" to="/contact">Contact</Link>
 			</div>
