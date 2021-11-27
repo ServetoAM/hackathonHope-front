@@ -3,6 +3,8 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
+    background-image: url('https://bnetcmsus-a.akamaihd.net/cms/blog_header/bp/BP9CO3KY420Y1436482865500.jpg');
+    border-bottom: 2px rgba(251,176,59,1) solid;
 }
 
 .timer_title {
