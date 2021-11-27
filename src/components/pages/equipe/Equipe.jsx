@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import PlayerCard from '../../playerCard/PlayerCard.jsx'
-import { FaTwitter, FaInstagram, FaTwitch } from 'react-icons/fa'
 import "./Equipe.css"
 
 function Equipe() {

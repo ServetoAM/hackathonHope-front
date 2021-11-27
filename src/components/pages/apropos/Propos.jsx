@@ -1,15 +1,14 @@
 import React from "react";
 import "./Propos.css";
-import Untiltheend from "../../../assets/untiltheend.jpg";
 
 function Propos() {
   return (
     <div className="propos">
       <div className="proposText">
-        <h2>A propos de notre association</h2>
+        <h2>À propos de notre association</h2>
         <p>
-          De compétiteurs à entrepreneurs, deux amis Bordelais Florian
-          Guéraçague et Jules Arino décident de créer leur propre structure
+          De compétiteurs à entrepreneurs, deux amis bordelais, Florian
+          Guéraçague et Jules Arino, décident de créer leur propre structure
           esportive spécialisée sur Hearthstone, jeu de cartes virtuel le plus
           joué au monde. En quatre mois de préparation, la structure prend forme
           et s’officialise en avril 2021 après le recrutement de huit
@@ -48,11 +47,12 @@ function Propos() {
           Cependant ce n’est que le début pour notre équipe ambitieuse car après
           tout, pourquoi devrions-nous nous fixer des limites ?
         </p>
-        <p>#untiltheend</p>
+        <div className='end-text'>
+          <p>#Untiltheend 🏆</p>
+          {/* <img className='trophy' src="https://hotemoji.com/images/dl/3/trophy-emoji-by-twitter.png" alt="trophy emoji" /> */}
+        </div>
       </div>
-      <div className="untilEnd">
-        <img src={Untiltheend} alt="banniere hope" className="untilTheEnd" />
-      </div>
+
     </div>
   );
 }

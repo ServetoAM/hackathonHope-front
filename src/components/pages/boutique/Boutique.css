@@ -5,6 +5,7 @@
   width: 75%;
   padding-top: 15vh;
   margin: auto;
+  padding-top: 20vh;
 }
 
 .boutiqueTitre {
@@ -20,24 +21,37 @@
 .boutiqueShirtFront {
   /* faire un background pour le faire ressortir */
   display: flex;
-  border: 3px solid rgba(251, 176, 59, 1);
+  border: 2px solid rgba(251, 176, 59, 1);
   justify-content: center;
   margin: 3vw;
-  background-color: rgb(102, 100, 100);
+  background-color: rgb(29, 21, 36);
+  width: 300px;
 }
 
-.boutiqueP{
-display: flex;
-margin-top: 1vw;
-margin-bottom: 2vw;
-}
 
+.shirt-images {
+  display: flex;
+}
+/* 
 .boutiqueButton {
-  /* augmenter taille + reprendre couleur bordure */
   font-size: large;
   background-color: rgba(251, 176, 59, 1);
   padding-left: 2vw;
   padding-right: 2vw;
   padding-top: 0.5vw;
   padding-bottom: 0.5vw;
+} */
+
+.shop-link {
+  text-decoration: none;
+  color: rgba(251, 176, 59, 1);
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+@media screen and (max-width: 751px) {
+  .shirt-images {
+    display: flex;
+    flex-direction: column;
+  }
 }

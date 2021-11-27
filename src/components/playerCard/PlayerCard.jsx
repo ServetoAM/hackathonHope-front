@@ -38,9 +38,9 @@ function PlayerCard({playerCard}) {
                     </div>
                 </div>
                 <div className="grid-social">	
-				<li className={`${playerCard.twitter}` === "" ? 'empty' : 'full'}><a href={playerCard.twitter} target="blank_"><FaTwitter/></a></li>
-				<li className={`${playerCard.twitch}` === "" ? 'empty' : 'full'}><a href={playerCard.twitch} target="blank_"><FaTwitch/></a></li>
-				<li className={`${playerCard.instagram}` === "" ? 'empty' : 'full'}><a href={playerCard.instagram} target="blank_"><FaInstagram/></a></li>	
+				    <li className={`${playerCard.twitter}` === "" ? 'empty' : 'full'}><a href={playerCard.twitter} target="blank_"><FaTwitter/></a></li>
+				    {/* <li className={`${playerCard.twitch}` === "" ? 'empty' : 'full'}><a href={playerCard.twitch} target="blank_"><FaTwitch/></a></li>
+				    <li className={`${playerCard.instagram}` === "" ? 'empty' : 'full'}><a href={playerCard.instagram} target="blank_"><FaInstagram/></a></li>	 */}
         	</div>
             </div>
         </div>

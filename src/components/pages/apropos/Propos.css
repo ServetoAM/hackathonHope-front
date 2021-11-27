@@ -32,6 +32,10 @@
     margin-right: auto;
 }
 
+.end-text {
+    display: flex;
+}
+
 
 @media screen and (max-width: 1224px) {
     .Divpropos p {
@@ -53,4 +57,11 @@
     height: 50px;
     margin: 3vw;
 
+}
+
+.trophy {
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    margin-left: 15px
 }
