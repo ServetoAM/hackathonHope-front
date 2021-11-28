@@ -32,15 +32,6 @@
 .shirt-images {
   display: flex;
 }
-/* 
-.boutiqueButton {
-  font-size: large;
-  background-color: rgba(251, 176, 59, 1);
-  padding-left: 2vw;
-  padding-right: 2vw;
-  padding-top: 0.5vw;
-  padding-bottom: 0.5vw;
-} */
 
 .shop-link {
   text-decoration: none;

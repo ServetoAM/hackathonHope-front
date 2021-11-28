@@ -2,17 +2,18 @@ import React from "react";
 import "./Boutique.css";
 import shirt_front from "../../../assets/shirt_front.png";
 import shirt_back from "../../../assets/shirt_back.png";
+import Carousel from "../../carousel/Carousel";
 
 
 function Boutique() {
   return (
     <div className="boutiqueDiv">
-      {/* <h2 className="boutiqueTitre">Hope Merch</h2> */}
       <p className="boutiqueP">
         Retrouvez les articles emblématiques de l'équipe sur notre 
         <a className='shop-link' target="_blank"  href="https://eliminate.fr/categorie-produit/hope-esport/" >boutique</a> 
         affiliée !
       </p>
+      <Carousel />
       <div className='shirt-images'>
         <a target="_blank" href="https://eliminate.fr/categorie-produit/hope-esport/" >
           <img
