@@ -189,29 +189,35 @@ ul {
 
 .logo {
 	display: flex;
-	width: 60px;
+	width: 80px;
 	margin: auto;
 }
 
-// @media screen and (max-width: 1224px) {
-// 	.text-style1, .button1, .button2, .button3:focus, .button3:hover , 
-// 	.nav-listItem, .nav-listItemDrop, .text-decoration{
-// 		display: none ;
-// 	}
-// }
+@media screen and (max-width: 1224px) {
+	.text-style1, .button1, .button2, .button3:focus, .button3:hover , 
+	.nav-listItem, .nav-listItemDrop, .text-decoration{
+		display: none ;
+	}
+}
 
-// .bm-cross-button {
-//   left: 6vh;
-// 	.navbar {
-// 		display: flex;
-// 		flex-direction: row;
-// 		justify-content: space-around;
-//   	position: fixed;
-// 		z-index: 2;
-// 		width: 100%;
-// 		background: rgb(30,0,36);
-// 		background: rgb(30,0,36);
-// 		background: linear-gradient(90deg, rgba(30,0,36,1) 0%, rgba(73,20,20,1) 50%, rgba(173,88,43,1) 60%, rgba(251,176,59,1) 100%);
-// 		height: 7vh;
-// 	}
-// }
+.bm-cross-button {
+  left: 6vh;
+	.navbar {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+  	    position: fixed;
+		z-index: 1000;
+		width: 100vw;
+		background: rgb(30,0,36);
+		background: rgb(30,0,36);
+		background: linear-gradient(90deg, rgba(30,0,36,1) 0%, rgba(73,20,20,1) 50%, rgba(173,88,43,1) 60%, rgba(251,176,59,1) 100%);
+		height: 7vh;
+	}
+
+	.logo {
+		display: flex;
+		width: 70px;
+		margin: auto;
+	}
+}
