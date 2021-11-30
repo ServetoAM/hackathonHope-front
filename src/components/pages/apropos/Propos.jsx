@@ -1,11 +1,14 @@
 import React from "react";
 import "./Propos.css";
+import about1 from '../../../assets/apropos1.jpg'
+import about2 from '../../../assets/apropos2.png'
 
 function Propos() {
   return (
     <div className="propos">
       <div className="proposText">
         <h2>À propos de notre association</h2>
+        <img className='about-img' src={about1} alt="img tournois" />
         <p>
           De compétiteurs à entrepreneurs, deux amis bordelais, Florian
           Guéraçague et Jules Arino, décident de créer leur propre structure
@@ -33,6 +36,7 @@ function Propos() {
           tournois internationaux et l’organisation de deux tournois
           communautaires.
         </p>
+        <img className='about-img' src={about2} alt="img tournois" />
         <p>
           Ayant la volonté de faire plaisir à notre communauté, notre discord se
           développe à grande vitesse, ce qui va accélérer l’arrivée de nouveaux

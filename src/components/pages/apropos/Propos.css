@@ -8,7 +8,7 @@
 }
 
 .proposText{
-    margin-top: 15vh;
+    margin-top: 100px;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -36,19 +36,12 @@
     display: flex;
 }
 
-
-@media screen and (max-width: 1224px) {
-    .Divpropos p {
-        text-align: center;
-        width: 100%;
-    }
-
-    .proposP {
-        margin: 0 0 2vh 0;
-    }
-
-    /* margin-bottom: auto;
-    margin-top: auto; */
+.about-img {
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ImageAmbitions{
@@ -65,3 +58,36 @@
     padding-top: 10px;
     margin-left: 15px
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1224px) {
+    .Divpropos p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .proposP {
+        margin: 0 0 2vh 0;
+    }
+
+    .about-img {
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-img {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .propos{
+        width: 90%;
+    }
+}
+
